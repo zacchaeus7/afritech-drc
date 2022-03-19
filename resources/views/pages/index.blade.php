@@ -63,7 +63,7 @@
 
                              data-speed="1000"
                              data-start="1000"
-                             data-easing="Power1.easeOut"><img src="{{url('assets/images/slide-02-image-01.png')}}" alt="" />
+                             {{--data-easing="Power1.easeOut"><img src="{{url('assets/images/slide-02-image-01.png')}}" alt="" />--}}
                         </div>
 
                     </li>

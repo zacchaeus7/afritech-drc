@@ -678,14 +678,14 @@ $(document).ready(function(){
 			$(window).resize();
 		}
 	});
-	
+
 	//Layout Switcher
 	$(".layout-style").change(function(){
-		if( $(this).val() == 1){
+		if( $(this).val() == 2){
 			$("#container").removeClass("boxed-page"),
 			$(window).resize();
 		} else{
-			$("#container").addClass("boxed-page"),
+            $("#container").removeClass("boxed-page"),
 			$(window).resize();
 		}
 	});
