@@ -29,9 +29,8 @@
     <link rel="stylesheet" type="text/css" href="{{url('assets/css/settings.css')}}" media="screen" />
 
     <!-- Vella CSS Styles  -->
-    @production
+
     <link rel="stylesheet" type="text/css" href="{{url('assets/css/style.css')}}" media="screen">
-    @endproduction
 
     <!-- Responsive CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="{{url('assets/css/responsive.css')}}" media="screen">
