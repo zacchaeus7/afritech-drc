@@ -22,7 +22,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::get('/contact-us', 'AfritechController@contact');
     Route::get('/our-services', 'AfritechController@service');
 
-    Route::get('/repair-pump','ServiceController@repair_pump');
+    Route::get('/my-service/{id}','ServiceController@repair_pump');
 
 });
 
@@ -35,12 +35,12 @@ Route::middleware('auth.basic')->group(function() {
     Route::post('custom-registration', [AuthController::class, 'customRegistration'])->name('register.custom');
     Route::get('signout', [AuthController::class, 'signOut'])->name('signout');
 
-    Route::group(['namespace' => 'App\Http\Controllers\Admin'], function() {
+Route::group(['namespace' => 'App\Http\Controllers\Admin'], function() {
 
         Route::resource('admin-home','AdminController');
         Route::resource('service/index','ServiceController');
 
-    });
+});
 
 
 

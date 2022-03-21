@@ -316,76 +316,20 @@
         <!-- Start Services Icons -->
         <div class="row">
             <!-- Start Service Icon 1 -->
-            <div class="col-md-4 service-box service-icon-left">
+            @foreach($services as $service)
+                <a href="{{url('my-service/'.$service->id)}}"><div class="col-md-4 service-box service-icon-left">
                 <div class="service-icon">
                     <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                 </div>
                 <div class="service-content">
-                    <h4>Supply and Repair Of Pumps
+                    <h4>{{$service->title}}
                     </h4>
                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
                 </div>
-            </div>
+            </div></a>
+            @endforeach
             <!-- End Service Icon 1 -->
 
-            <!-- Start Service Icon 2 -->
-            <div class="col-md-4 service-box service-icon-left">
-                <div class="service-icon">
-                    <i class="icon-eye-4 fa fa-home icon-mini-effect icon-effect-2 gray-icon"></i>
-                </div>
-                <div class="service-content">
-                    <h4>Industrial and domestic drilling</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
-                </div>
-            </div>
-            <!-- End Service Icon 2 -->
-
-            <!-- Start Service Icon 3 -->
-            <div class="col-md-4 service-box service-icon-left">
-                <div class="service-icon">
-                    <i class="icon-pencil-4 icon-mini-effect icon-effect-2 gray-icon"></i>
-                </div>
-                <div class="service-content">
-                    <h4>Civil Engineers And Construction Works</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
-                </div>
-            </div>
-            <!-- End Service Icon 3 -->
-
-            <!-- Start Service Icon 4 -->
-            <div class="col-md-4 service-box service-icon-left">
-                <div class="service-icon">
-                    <i class="icon-rocket icon-mini-effect icon-effect-2 gray-icon"></i>
-                </div>
-                <div class="service-content">
-                    <h4>Mining Work</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
-                </div>
-            </div>
-            <!-- End Service Icon 4 -->
-
-            <!-- Start Service Icon 5 -->
-            <div class="col-md-4 service-box service-icon-left">
-                <div class="service-icon">
-                    <i class="icon-download-3 icon-mini-effect icon-effect-2 gray-icon"></i>
-                </div>
-                <div class="service-content">
-                    <h4>Calibration of Meters And Tanks</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
-                </div>
-            </div>
-            <!-- End Service Icon 5 -->
-
-            <!-- Start Service Icon 6 -->
-            <div class="col-md-4 service-box service-icon-left">
-                <div class="service-icon">
-                    <i class="icon-user-4 icon-mini-effect icon-effect-2 gray-icon"></i>
-                </div>
-                <div class="service-content">
-                    <h4>Dedicated Support</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
-                </div>
-            </div>
 
         </div>
         <!-- End Services Icons -->

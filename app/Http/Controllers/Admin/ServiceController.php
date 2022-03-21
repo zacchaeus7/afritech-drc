@@ -37,6 +37,11 @@ class ServiceController extends Controller
             'cover'=>'required'
         ]);
 
+        $coverName = time() . '.' . $request->file('cover')->extension();
+        $request->file('cover')->move(public_path('assets/images/services'), $coverName);
+        $data['cover'] = $coverName;
+
+
         $this->repository->save('services',$data);
     }
 

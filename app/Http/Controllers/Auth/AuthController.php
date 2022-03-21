@@ -14,11 +14,13 @@ class AuthController extends Controller
 {
     public function index()
     {
+
         return view('Auth.login');
     }
 
     public function login(Request $request)
     {
+
         $request->validate([
             'email' => 'required',
             'password' => 'required',
