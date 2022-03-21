@@ -15,24 +15,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-    Route::group(['namespace' => 'App\Http\Controllers'], function() {
+Route::group(['namespace' => 'App\Http\Controllers'], function() {
 
     Route::get('/', 'AfritechController@index');
     Route::get('/about-us', 'AfritechController@about');
     Route::get('/contact-us', 'AfritechController@contact');
     Route::get('/our-services', 'AfritechController@service');
 
+    Route::get('/repair-pump','ServiceController@repair_pump');
+
 });
 
 Route::get('login', [AuthController::class, 'index']);
 Route::post('login', [AuthController::class, 'Login']);
-Route::get('registration', [AuthController::class, 'registration'])->name('register-user');
-Route::post('custom-registration', [AuthController::class, 'customRegistration'])->name('register.custom');
-Route::get('signout', [AuthController::class, 'signOut'])->name('signout');
 
-Route::group(['namespace' => 'App\Http\Controllers'], function() {
+Route::middleware('auth.basic')->group(function() {
 
-    Route::resource('admin-home','AdminController');
+    Route::get('registration', [AuthController::class, 'registration'])->name('register-user');
+    Route::post('custom-registration', [AuthController::class, 'customRegistration'])->name('register.custom');
+    Route::get('signout', [AuthController::class, 'signOut'])->name('signout');
+
+    Route::group(['namespace' => 'App\Http\Controllers\Admin'], function() {
+
+        Route::resource('admin-home','AdminController');
+        Route::resource('service/index','ServiceController');
+
+    });
+
+
 
 });
+
 
