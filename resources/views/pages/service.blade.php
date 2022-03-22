@@ -31,36 +31,15 @@
                 <div class="row">
 
                     <!-- Start Image Service Box 1 -->
-                    <div class="col-md-4 image-service-box">
-                        <img class="img-thumbnail" src="{{url('assets/images/service-01.jpg')}}" alt="" />
-                        <h4>Supply and Repair Of Pumps</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quasi architect.</p>
-                    </div>
+                    @foreach($services as $service)
+                        <a href="{{url('my-service',$service->id)}}"> <div class="col-md-4 image-service-box">
+                            <img class="img-thumbnail" src="{{url('assets/images/services/'.$service->cover)}}" alt="" />
+                            <h4>{{$service->title}}</h4>
+                            <p>{{substr($service->description,0,200)}} <strong>' ...Lire plus'</strong> </p>
+                        </div></a>
+                    @endforeach
+
                     <!-- End Image Service Box 1 -->
-
-                    <!-- Start Image Service Box 2 -->
-                    <div class="col-md-4 image-service-box">
-                        <img class="img-thumbnail" src="{{url('assets/images/service-02.jpg')}}" alt="" />
-                        <h4>Industrial and domestic drillin</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quasi architect.</p>
-                    </div>
-                    <!-- End Image Service Box 2 -->
-
-                    <!-- Start Image Service Box 3 -->
-                    <div class="col-md-4 image-service-box">
-                        <img class="img-thumbnail" src="{{url('assets/images/service-03.jpg')}}" alt="" />
-                        <h4>Civil Engineers And Construction Works</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quasi architect.</p>
-                    </div>
-                    <!-- End Image Service Box 3 -->
-
-                    <!-- Start Image Service Box 3 -->
-                    <div class="col-md-4 image-service-box">
-                        <img class="img-thumbnail" src="{{url('assets/images/service-03.jpg')}}" alt="" />
-                        <h4>Civil Engineers And Construction Works</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quasi architect.</p>
-                    </div>
-                    <!-- End Image Service Box 3 -->
 
                 </div>
 

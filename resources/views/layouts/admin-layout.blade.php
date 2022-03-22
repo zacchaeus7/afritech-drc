@@ -216,15 +216,15 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="pages/forms/advanced.html" class="nav-link">
+                                <a href="{{url('afritech_project')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Advanced Elements</p>
+                                    <p>Projets</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="pages/forms/editors.html" class="nav-link">
+                                <a href="{{url('afritech_partners')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Editors</p>
+                                    <p>Partenaires</p>
                                 </a>
                             </li>
                             <li class="nav-item">

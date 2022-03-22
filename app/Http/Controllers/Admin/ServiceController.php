@@ -18,7 +18,8 @@ class ServiceController extends Controller
 
     public function index()
     {
-        return view('admins.services.index');
+        $services = $this->repository->findAll('services');
+        return view('admins.services.index',compact('services'));
     }
 
 

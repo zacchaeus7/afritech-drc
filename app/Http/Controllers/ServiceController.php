@@ -18,7 +18,9 @@ class ServiceController extends Controller
     public function repair_pump($id){
 
         $service = $this->repository->findRecord('services',$id);
+        $projets_service = $this->repository->findRecordsByField('projects','service_id',$service->id);
 
-        return view('services.service',['service'=>$service]);
+        //var_dump($projets_service);die;
+        return view('services.service',['service'=>$service,'project'=>$projets_service]);
     }
 }

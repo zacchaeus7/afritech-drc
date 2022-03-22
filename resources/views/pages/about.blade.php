@@ -151,106 +151,37 @@
                 <div class="hr1" style="margin-bottom:50px;"></div>
 
                 <!-- Classic Heading -->
-                <h4 class="classic-title"><span>Our Creative Team</span></h4>
+                <h4 class="classic-title"><span>Our Partners</span></h4>
 
                 <!-- Start Team Members -->
                 <div class="row">
 
-                    <!-- Start Memebr 1 -->
-                    <div class="col-md-3">
-                        <div class="team-member">
-                            <!-- Memebr Photo, Name & Position -->
-                            <div class="member-photo">
-                                <img alt="" src="images/member-01.jpg" />
-                                <div class="member-name">John Doe <span>Developer</span></div>
-                            </div>
-                            <!-- Memebr Words -->
-                            <div class="member-info">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                            </div>
-                            <!-- Memebr Social Links -->
-                            <div class="member-socail">
-                                <a class="twitter" href="#"><i class="icon-twitter-2"></i></a>
-                                <a class="gplus" href="#"><i class="icon-gplus"></i></a>
-                                <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                <a class="flickr" href="#"><i class="icon-flickr-1"></i></a>
-                                <a class="mail" href="#"><i class="icon-mail-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Memebr 1 -->
+                    @foreach($partners as $partner)
 
-                    <!-- Start Memebr 2 -->
-                    <div class="col-md-3">
-                        <div class="team-member">
-                            <!-- Memebr Photo, Name & Position -->
-                            <div class="member-photo">
-                                <img alt="" src="images/member-02.jpg" />
-                                <div class="member-name">Silly Sally <span>Developer</span></div>
+                        <!-- Start Memebr 1 -->
+                            <div class="col-md-3">
+                                <div class="team-member">
+                                    <!-- Memebr Photo, Name & Position -->
+                                    <div class="member-photo">
+                                        <img alt="" src="{{url('assets/images/partners/',$partner->cover)}}" />
+                                        <div class="member-name">{{$partner->title}}</div>
+                                    </div>
+                                    <!-- Memebr Words -->
+                                    {{--<div class="member-info">--}}
+                                        {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>--}}
+                                    {{--</div>--}}
+                                    {{--<!-- Memebr Social Links -->--}}
+                                    {{--<div class="member-socail">--}}
+                                        {{--<a class="twitter" href="#"><i class="icon-twitter-2"></i></a>--}}
+                                        {{--<a class="gplus" href="#"><i class="icon-gplus"></i></a>--}}
+                                        {{--<a class="linkedin" href="#"><i class="icon-linkedin"></i></a>--}}
+                                        {{--<a class="flickr" href="#"><i class="icon-flickr-1"></i></a>--}}
+                                        {{--<a class="mail" href="#"><i class="icon-mail-2"></i></a>--}}
+                                    {{--</div>--}}
+                                </div>
                             </div>
-                            <!-- Memebr Words -->
-                            <div class="member-info">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                            </div>
-                            <!-- Memebr Social Links -->
-                            <div class="member-socail">
-                                <a class="facebook" href="#"><i class="icon-facebook"></i></a>
-                                <a class="gplus" href="#"><i class="icon-gplus"></i></a>
-                                <a class="dribbble" href="#"><i class="icon-dribbble-2"></i></a>
-                                <a class="flickr" href="#"><i class="icon-flickr-1"></i></a>
-                                <a class="instagramm" href="#"><i class="icon-instagramm"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Memebr 2 -->
-
-                    <!-- Start Memebr 3 -->
-                    <div class="col-md-3">
-                        <div class="team-member">
-                            <!-- Memebr Photo, Name & Position -->
-                            <div class="member-photo">
-                                <img alt="" src="images/member-03.jpg" />
-                                <div class="member-name">Chris John <span>Developer</span></div>
-                            </div>
-                            <!-- Memebr Words -->
-                            <div class="member-info">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                            </div>
-                            <!-- Memebr Social Links -->
-                            <div class="member-socail">
-                                <a class="facebook" href="#"><i class="icon-facebook"></i></a>
-                                <a class="twitter" href="#"><i class="icon-twitter-2"></i></a>
-                                <a class="dribbble" href="#"><i class="icon-dribbble-2"></i></a>
-                                <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
-                                <a class="mail" href="#"><i class="icon-mail-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Memebr 3 -->
-
-                    <!-- Start Memebr 4 -->
-                    <div class="col-md-3">
-                        <div class="team-member">
-                            <!-- Memebr Photo, Name & Position -->
-                            <div class="member-photo">
-                                <img alt="" src="images/member-04.jpg" />
-                                <div class="member-name">Sara John <span>Developer</span></div>
-                            </div>
-                            <!-- Memebr Words -->
-                            <div class="member-info">
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                            </div>
-                            <!-- Memebr Social Links -->
-                            <div class="member-socail">
-                                <a class="facebook" href="#"><i class="icon-facebook"></i></a>
-                                <a class="twitter" href="#"><i class="icon-twitter-2"></i></a>
-                                <a class="dribbble" href="#"><i class="icon-dribbble-2"></i></a>
-                                <a class="flickr" href="#"><i class="icon-flickr-1"></i></a>
-                                <a class="instagramm" href="#"><i class="icon-instagramm"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Memebr 4 -->
+                            <!-- End Memebr 1 -->
+                    @endforeach
 
                 </div>
                 <!-- End Team Members -->

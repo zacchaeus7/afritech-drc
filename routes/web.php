@@ -39,6 +39,13 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin'], function() {
 
         Route::resource('admin-home','AdminController');
         Route::resource('service/index','ServiceController');
+        Route::get('afritech_project','AdminController@project');
+        Route::get('afritech_partners','AdminController@partners');
+        Route::get('project/project_create','AdminController@create_project');
+        Route::post('project/project_create','AdminController@store_project');
+
+        Route::get('partners/partner_create','AdminController@create_partner');
+        Route::post('partners/partner_create','AdminController@store_partner');
 
 });
 
