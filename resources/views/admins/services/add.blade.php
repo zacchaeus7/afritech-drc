@@ -6,21 +6,22 @@
             <div class="card-header">
                 <h3 class="card-title">Quick Example</h3>
             </div>
-            <form method="POST" enctype="multipart/form-data" action="{{url('service/index')}}">
+            <form method="POST"  enctype="multipart/form-data" action="{{ ($data['action'] == "edit") ?url('service/update_service/'.$data['service']->id) : url('service')}}">
+
                 @csrf
                 <div class="card-body">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Titre</label>
-                        <input type="text" class="form-control" name="title" placeholder="Titre du service">
+                        <input type="text" value="{{($data['action'] == "edit") ? $data['service']->title : ''}}" class="form-control" name="title" placeholder="Titre du service">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Description</label>
-                        <input type="text" class="form-control" name="description" placeholder="Description">
+                        <input type="text" value="{{($data['action'] == "edit") ? $data['service']->description : ''}}" class="form-control" name="description" placeholder="Description">
                     </div>
 
                     <div class="form-group">
                         <label for="exampleInputPassword1">Cover</label>
-                        <input type="file" class="form-control" name="cover" placeholder="Cover">
+                        <input type="file" value="" class="form-control" name="cover" placeholder="Cover">
                     </div>
 
                     <div class="form-check">

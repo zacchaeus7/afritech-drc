@@ -25,7 +25,8 @@ class ServiceController extends Controller
 
     public function create()
     {
-        return view('admins.services.add');
+        $data['action'] = "add";
+        return view('admins.services.add',compact('data'));
     }
 
 
@@ -44,6 +45,8 @@ class ServiceController extends Controller
 
 
         $this->repository->save('services',$data);
+
+        return redirect(url('service'));
     }
 
 
@@ -55,17 +58,44 @@ class ServiceController extends Controller
 
     public function edit($id)
     {
-        //
+        $data['service'] = $this->repository->findRecord('services',$id);
+
+        $data['action'] = "edit";
+
+        return view('admins.services.add',compact('data'));
     }
 
-    public function update(Request $request, $id)
+    public function update_service(Request $request, $id)
     {
-        //
+        $data = $request->validate([
+            'title' => 'required|min:5',
+            'description' => 'required',
+            'cover'=>'nullable'
+        ]);
+
+        $service = $this->repository->findRecord('services',$id);
+
+        if (empty($data['cover'])){
+
+            $data['cover'] = $service->cover;
+        }
+        else{
+
+            $coverName = time() . '.' . $request->file('cover')->extension();
+            $request->file('cover')->move(public_path('assets/images/services'), $coverName);
+            $data['cover'] = $coverName;
+        }
+
+        $this->repository->update('services',$id,$data);
+
+        return redirect(url('service'));
     }
 
 
     public function destroy($id)
     {
-        //
+        $this->repository->delete('service',$id);
+
+        return redirect(url('service'));
     }
 }

@@ -38,7 +38,10 @@ Route::middleware('auth.basic')->group(function() {
 Route::group(['namespace' => 'App\Http\Controllers\Admin'], function() {
 
         Route::resource('admin-home','AdminController');
-        Route::resource('service/index','ServiceController');
+        Route::resource('service','ServiceController');
+        Route::post('service/update_service/{id}','ServiceController@update_service');
+
+
         Route::get('afritech_project','AdminController@project');
         Route::get('afritech_partners','AdminController@partners');
         Route::get('project/project_create','AdminController@create_project');

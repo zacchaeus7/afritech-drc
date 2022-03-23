@@ -284,11 +284,11 @@
                     <div class="footer-widget contact-widget">
                         <h4>Contact info<span class="head-line"></span></h4>
                         <ul>
-                            <li><span>Address:</span> 1234 Street Name, City Name, Egypt</li>
-                            <li><span>Phone Number:</span> +01 234 567 890</li>
+                            <li><span>Address:</span> Des Poids-Lourds Street, n°4, Kinshasa/Limeté, Drc</li>
+                            <li><span>Phone Number:</span> +243(0)812702000</li>
                             <li><span>Fax Number:</span> +01 234 567 890</li>
-                            <li><span>Email:</span> <a href="https://zoomarts.works/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="61020e0c11000f1821020e0c11000f184f020e0c">[email&#160;protected]</a></li>
-                            <li><span>Website:</span> www.yourdomain.com</li>
+                            <li><span>Email:</span> <a href="" class="__cf_email__" data-cfemail="61020e0c11000f1821020e0c11000f184f020e0c">Info@MWAfritec.com</a></li>
+                            <li><span>Website:</span> www.afritech-drc.com</li>
                         </ul>
                     </div>
                 </div>
@@ -298,6 +298,8 @@
                 <div class="col-md-3">
                     <div class="footer-widget flickr-widget">
                         <h4>Flicker Feed<span class="head-line"></span></h4>
+
+
                         <ul class="flickr-list">
                             <li>
                                 <a href="#"><img alt="" src="images/flickr-01.jpg"></a>
@@ -331,30 +333,30 @@
                 </div>
                 <!-- End Flickr Widget -->
 
-                <!-- Start Twitter Widget -->
-                <div class="col-md-3">
-                    <div class="footer-widget twitter-widget">
-                        <h4>Twitter Feed<span class="head-line"></span></h4>
-                        <ul>
-                            <li>
-                                <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                                <span>29 September 2013</span>
-                            </li>
-                            <li>
-                                <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>
-                                <span>26 September 2013</span>
-                            </li>
-                            <li>
-                                <p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>
-                                <span>29 September 2013</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Twitter Widget -->
+                {{--<!-- Start Twitter Widget -->--}}
+                {{--<div class="col-md-3">--}}
+                    {{--<div class="footer-widget twitter-widget">--}}
+                        {{--<h4>Twitter Feed<span class="head-line"></span></h4>--}}
+                        {{--<ul>--}}
+                            {{--<li>--}}
+                                {{--<p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>--}}
+                                {{--<span>29 September 2013</span>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.An Fusce eleifend aliquet nis application.</p>--}}
+                                {{--<span>26 September 2013</span>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<p><a href="#">@RoberdKS </a> Lorem ipsum dolor et, consectetur adipiscing eli.</p>--}}
+                                {{--<span>29 September 2013</span>--}}
+                            {{--</li>--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<!-- End Twitter Widget -->--}}
 
                 <!-- Start Subscribe & Social Links Widget -->
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <div class="footer-widget mail-subscribe-widget">
                         <h4>Get in touch<span class="head-line"></span></h4>
                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>

@@ -20,9 +20,10 @@ class AfritechController extends Controller
     public function index(){
 
         $services = $this->repository->findAll('services');
+        $projects = $this->repository->findAll('projects');
 
         return view('pages.index',['services' =>
-            $services]);
+            $services,'projects'=>$projects]);
     }
 
     public function service(){
@@ -36,8 +37,9 @@ class AfritechController extends Controller
     public function about(){
 
         $partners = $this->repository->findAll('partners');
+        $services = $this->repository->findAll('services');
 
-        return view('pages.about',compact('partners'));
+        return view('pages.about',compact('partners','services'));
     }
 
     public function contact(){

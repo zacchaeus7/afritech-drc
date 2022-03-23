@@ -18,6 +18,7 @@ class CreateServicesTable extends Migration
             $table->string('title');
             $table->text('description');
             $table->string('cover');
+            $table->boolean('is_deleted')->default(false);
             $table->timestamps();
         });
     }

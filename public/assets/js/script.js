@@ -5,6 +5,8 @@ var $ = jQuery.noConflict();
 // Page Loader
 $(window).load(function(){
 	$('#loader').fadeOut();
+    $("#container").addClass("boxed-page");
+    $(".top-bar").addClass("color-bar");
 });
 
 $(document).ready(function($) {
@@ -678,14 +680,14 @@ $(document).ready(function(){
 			$(window).resize();
 		}
 	});
-
+	
 	//Layout Switcher
 	$(".layout-style").change(function(){
 		if( $(this).val() == 2){
 			$("#container").removeClass("boxed-page"),
 			$(window).resize();
 		} else{
-            $("#container").removeClass("boxed-page"),
+			$("#container").addClass("boxed-page"),
 			$(window).resize();
 		}
 	});

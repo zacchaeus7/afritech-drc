@@ -35,18 +35,23 @@
                         <h4 class="classic-title"><span>Welcome To Our Agency</span></h4>
 
                         <!-- Some Text -->
-                        <p>Lorem Ipsum is simply dummy text of the <a title="Simple Tooltip" href="#" class="sh-tooltip" data-placement="top">printing</a> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Sed ut perspiciatis unde omnis iste natus error sit volup accusantium. Lorem ipsum dolor sit amet, consectetur.</p>
+                        <p>MW AFRITEC, present for more than 20 years in the DRC, with the objective of rebuilding our great country, has its head office in Kinshasa and other representative offices in the DRCongo and abroad.
 
+                            MW AFRITEC SPRL holds an exceptional position in the field of construction and Civil Engineering thanks to its many specialists and Technicians in the fields of African Building and Public Works and engineering in general.
+
+                            The firm currently employs 272 contracted agents including 35 engineers and technicians and nearly 500 temporary agents on various worksites.
+                            Since 2009, the MW Afritec Company has experienced an extension in its activities in the field of agriculture and livestock as well as in the field of transport.</p>
                     </div>
 
                     <div class="col-md-5">
 
                         <!-- Start Touch Slider -->
                         <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
-                            <div class="item"><img alt="" src="{{url('assets/images/about-01.jpg')}}"></div>
-                            <div class="item"><img alt="" src="{{url('assets/images/about-02.jpg')}}"></div>
-                            <div class="item"><img alt="" src="{{url('assets/images/about-03.jpg')}}"></div>
+                            @foreach($services as $service)
+                                <div class="item"><img alt="" src="{{url('assets/images/services/'.$service->cover)}}"></div>
+                                <div class="item"><img alt="" src="{{url('assets/images/services/'.$service->cover)}}"></div>
+
+                            @endforeach
                         </div>
                         <!-- End Touch Slider -->
 

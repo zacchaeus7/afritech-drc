@@ -36,8 +36,8 @@
                            <td>{{$service->id}}</td>
                            <td>{{$service->title}}</td>
                            <td>
-                               <a href=""><span class="badge bg-success">edit</span></a>
-                               <a href=""><span class="badge bg-danger">delete</span></a>
+                               <a href="{{url('service/'.$service->id).'/edit'}}"><span class="badge bg-success">edit</span></a>
+                               <a href="{{url('service/delete/'.$service->id)}}"><span class="badge bg-danger">delete</span></a>
                            </td>
                        </tr>
                    @endforeach
