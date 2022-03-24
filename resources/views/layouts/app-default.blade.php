@@ -3,7 +3,7 @@
 <head>
 
     <!-- Basic -->
-    <title>Afritech | Home</title>
+    <title>@yield('title')</title>
 
     <!-- Define Charset -->
     <meta charset="utf-8">
@@ -191,7 +191,7 @@
                             <a href="{{url('about-us')}}">About</a>
                         </li>
                         <li>
-                            <a href="">Realisations</a>
+                            <a href="{{url('portfolio')}}">Portfolio</a>
 
                         </li>
                         <li><a href="{{url('/contact-us')}}">Contact</a></li>
@@ -435,6 +435,9 @@
     <div class="spinner">
         <div class="dot1"></div>
         <div class="dot2"></div>
+        <div class="dot3"></div>
+        <div class="dot4"></div>
+        <div class="dot5"></div>
     </div>
 </div>
 

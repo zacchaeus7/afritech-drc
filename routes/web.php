@@ -21,6 +21,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::get('/about-us', 'AfritechController@about');
     Route::get('/contact-us', 'AfritechController@contact');
     Route::get('/our-services', 'AfritechController@service');
+    Route::get('/portfolio', 'AfritechController@portfolio');
 
     Route::get('/my-service/{id}','ServiceController@repair_pump');
 

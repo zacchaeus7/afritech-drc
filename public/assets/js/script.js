@@ -406,7 +406,7 @@ $(document).ready(function($) {
 	/*----------------------------------------------------*/
 	
 	$('.lightbox').nivoLightbox({
-		effect: 'fadeScale',
+		//effect: 'fadeScale',
 		keyboardNav: true,
 		errorMessage: 'The requested content cannot be loaded. Please try again later.'
 	});

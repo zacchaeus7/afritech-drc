@@ -330,7 +330,7 @@ input[type="submit"] {
 	display: inline-block;
 	position: absolute;
 	top: 0;
-	background-color: #0a9fd8;
+	background-color: #d8bd0c;
 	border-radius: 100%;
 	-webkit-animation: bouncee 2.0s infinite ease-in-out;
 	animation: bouncee 2.0s infinite ease-in-out;
@@ -342,7 +342,12 @@ input[type="submit"] {
 	-webkit-animation-delay: -1.0s;
 	animation-delay: -1.0s;
 }
-
+.dot2 {
+	top: auto;
+	bottom: 0px;
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
 @-webkit-keyframes rotatee { 100% { -webkit-transform: rotate(360deg) }}
 @keyframes rotatee {
 	100% {

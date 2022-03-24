@@ -47,4 +47,17 @@ class AfritechController extends Controller
         return view('pages.contact');
     }
 
+    public function portfolio(){
+
+        $portfolios = $this->repository->findAll('projects');
+
+        foreach ($portfolios as $key => $portfolio){
+
+            $portfolios[$key]->service = $this->repository->findRecord('services',$portfolio->service_id);
+
+        }
+
+        return view('pages.portfolio',compact('portfolios'));
+    }
+
 }

@@ -1,5 +1,8 @@
 @extends('layouts.app-default')
 
+@section('title')
+    Afritech | Our Services
+@endsection
 @section('content-body')
 
 
