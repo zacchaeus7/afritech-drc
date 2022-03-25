@@ -29,15 +29,16 @@ class AfritechController extends Controller
     public function service(){
 
         $services = $this->repository->findAll('services');
-
+        $sub_services = $this->repository->findAll('sub_service');
         //substr('',0,150)
-        return view('pages.service',compact('services'));
+        return view('pages.service',compact('services','sub_services'));
     }
 
     public function about(){
 
         $partners = $this->repository->findAll('partners');
         $services = $this->repository->findAll('services');
+
 
         return view('pages.about',compact('partners','services'));
     }

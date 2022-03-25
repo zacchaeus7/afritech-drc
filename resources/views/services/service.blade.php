@@ -45,7 +45,7 @@
                         <div class="item">
                             <a class="lightbox" title="This is an image title" href="{{url('assets/images/project-big-03.jpg')}}" data-lightbox-gallery="gallery2">
                                 <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
-                                <img alt="" src="{{url('assets/images/project-03.jpg')}}">
+                                <img alt="" src="{{url('assets/images/logo.png')}}">
                             </a>
                         </div>
                     </div>
@@ -117,13 +117,13 @@
                 <div class="col-md-8">
 
                     <!-- Classic Heading -->
-                    <h4 class="classic-title"><span>Images</span></h4>
+                    <h4 class="classic-title"><span>Illustrations</span></h4>
 
                     <div class="row">
 
                         <!-- Start Service Icon 1 -->
                         @foreach($sub_services as $service)
-                            <a href=""> <div class="col-md-6 image-service-box">
+                            <a href=""> <div class="col-md-3 image-service-box">
                                     <img class="img-thumbnail" src="{{url('assets/images/services/'.$service->cover)}}" alt="" />
                                 </div></a>
                         @endforeach

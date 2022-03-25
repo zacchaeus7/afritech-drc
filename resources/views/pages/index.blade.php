@@ -146,7 +146,7 @@
                              data-speed="600"
                              data-start="1000"
                              data-easing="easeOutBack"
-                             style="z-index: 2"><img src="{{url('assets/images/sliasder-11.png')}}" alt="" />
+                             style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />
                         </div>
 
                         <!-- LAYER NR. 8 -->
@@ -498,38 +498,18 @@
             </div>
 
             <!-- Start Progress Bars -->
+
             <div class="col-md-12">
                 <!-- Start Progress Bar 1 -->
-                <div class="progress-label">HTML/CSS</div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-progress-animation="98%">
-                        <span class="percentage">98%</span>
+                @foreach($services as $service)
+                    <div class="progress-label">{{$service->title}}</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary" data-progress-animation="98%">
+                            <span class="percentage">98%</span>
+                        </div>
                     </div>
-                </div>
+                @endforeach
 
-                <!-- Start Progress Bar 2 -->
-                <div class="progress-label">Web Developing</div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-progress-animation="96%" data-appear-animation-delay="400">
-                        <span class="percentage">96%</span>
-                    </div>
-                </div>
-
-                <!-- Start Progress Bar 3 -->
-                <div class="progress-label">Video marketing</div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-progress-animation="94%" data-appear-animation-delay="800">
-                        <span class="percentage">94%</span>
-                    </div>
-                </div>
-
-                <!-- Start Progress Bar 4 -->
-                <div class="progress-label">Support</div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-progress-animation="100%" data-appear-animation-delay="1200">
-                        <span class="percentage">100%</span>
-                    </div>
-                </div>
             </div>
             <!-- End Progress Bars -->
 
