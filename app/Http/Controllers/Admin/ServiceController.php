@@ -98,4 +98,5 @@ class ServiceController extends Controller
 
         return redirect(url('service'));
     }
+
 }

@@ -75,6 +75,65 @@
 
             </div>
 
+            <!-- Divider -->
+            <div class="hr1" style="margin-bottom:45px;"></div>
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <!-- Classic Heading -->
+                    <h4 class="classic-title"><span>What we offer you in this service</span></h4>
+
+                    <!-- Accordion -->
+                    <div class="panel-group" id="accordion">
+
+                        <!-- Start Accordion 1 -->
+
+                        @foreach($sub_services as $service)
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tow" class="collapsed">
+                                            <i class="icon-down-open-1 control-icon"></i>
+                                            <i class="icon-gift-1"></i> {{$service->title}}
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse-tow" class="panel-collapse collapse">
+                                    <div class="panel-body">{{$service->description}}</div>
+                                </div>
+                            </div>
+
+                        @endforeach
+
+                        <!-- End Accordion 1 -->
+
+                    </div>
+                    <!-- End Accordion -->
+
+                </div>
+
+                <div class="col-md-8">
+
+                    <!-- Classic Heading -->
+                    <h4 class="classic-title"><span>Images</span></h4>
+
+                    <div class="row">
+
+                        <!-- Start Service Icon 1 -->
+                        @foreach($sub_services as $service)
+                            <a href=""> <div class="col-md-6 image-service-box">
+                                    <img class="img-thumbnail" src="{{url('assets/images/services/'.$service->cover)}}" alt="" />
+                                </div></a>
+                        @endforeach
+
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
             <!-- Start Recent Projects Carousel -->
             <div class="recent-projects">
                 <h4 class="title"><span>realised Projects({{$service->title}})</span></h4>
@@ -98,7 +157,7 @@
                                 </div>
                             </div>
                         </div>
-                     @endforeach
+                    @endforeach
 
                 </div>
             </div>

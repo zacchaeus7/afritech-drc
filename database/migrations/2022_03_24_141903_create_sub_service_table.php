@@ -17,6 +17,7 @@ class CreateSubServiceTable extends Migration
             $table->id();
             $table->string('title');
             $table->text('description');
+            $table->string('cover');
             $table->unsignedBigInteger('service_id');
 
             $table->foreign('service_id')

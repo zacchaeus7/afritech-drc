@@ -40,6 +40,7 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin'], function() {
 
         Route::resource('admin-home','AdminController');
         Route::resource('service','ServiceController');
+        Route::resource('subservice','SubServiceController');
         Route::post('service/update_service/{id}','ServiceController@update_service');
 
 

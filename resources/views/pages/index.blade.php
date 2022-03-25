@@ -71,7 +71,7 @@
                     <!-- SLIDE 2  -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
                         <!-- MAIN IMAGE -->
-                        <img src="{{url('assets/images/slide-03-bg.jpg')}}" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{{url('assets/images/slider-11.png')}}" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
@@ -146,7 +146,7 @@
                              data-speed="600"
                              data-start="1000"
                              data-easing="easeOutBack"
-                             style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />
+                             style="z-index: 2"><img src="{{url('assets/images/sliasder-11.png')}}" alt="" />
                         </div>
 
                         <!-- LAYER NR. 8 -->
@@ -175,7 +175,7 @@
 
                              data-speed="300"
                              data-start="1000"
-                             data-easing="easeOutExpo">Powerful Theme
+                             data-easing="easeOutExpo">THE BEST IN DRC
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -185,7 +185,7 @@
 
                              data-speed="300"
                              data-start="1300"
-                             data-easing="easeOutExpo">The Best Template to Get You Started
+                             data-easing="easeOutExpo">The Best to Get You Started
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -315,6 +315,8 @@
 
         <!-- Start Services Icons -->
         <div class="row">
+            <h1 class="text-center">Our services</h1>
+            <hr>
             <!-- Start Service Icon 1 -->
             @foreach($services as $service)
                 <a href="{{url('my-service/'.$service->id)}}"><div class="col-md-4 service-box service-icon-left">
@@ -470,7 +472,7 @@
         <div class="hr1" style="margin-bottom:30px;"></div>
 
         <!-- Button in Center -->
-        <p class="text-center"><a href="#" class="btn-system btn-medium border-btn"><i class="icon-brush"></i> View Full Portfolio</a></p>
+        <p class="text-center"><a href="{{url('portfolio')}}" class="btn-system btn-medium border-btn"><i class="icon-brush"></i> All Portfolio</a></p>
 
     </div>
 </div>
