@@ -326,7 +326,7 @@
                 <div class="service-content">
                     <h4>{{$service->title}}
                     </h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
+                    <p>{{substr($service->description,0,100).'...'}}</p>
                 </div>
             </div></a>
             @endforeach
