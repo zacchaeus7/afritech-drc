@@ -33,7 +33,7 @@
 
                              data-speed="300"
                              data-start="1900"
-                             data-easing="easeOutExpo">The best template to get you started
+                             {{--data-easing="easeOutExpo">The best template to get you started--}}
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -43,7 +43,7 @@
 
                              data-speed="300"
                              data-start="2200"
-                             data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.
+                             {{--data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.--}}
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -53,7 +53,7 @@
 
                              data-speed="300"
                              data-start="2500"
-                             data-easing="easeOutExpo"><a href="#" class="tp-caption btn-system btn-large border-btn btn-gray">Purchase This Now</a>
+                             {{--data-easing="easeOutExpo"><a href="#" class="tp-caption btn-system btn-large border-btn btn-gray">Purchase This Now</a>--}}
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -146,7 +146,7 @@
                              data-speed="600"
                              data-start="1000"
                              data-easing="easeOutBack"
-                             style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />
+                             {{--style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />--}}
                         </div>
 
                         <!-- LAYER NR. 8 -->
@@ -185,7 +185,7 @@
 
                              data-speed="300"
                              data-start="1300"
-                             data-easing="easeOutExpo">The Best to Get You Started
+                             {{--data-easing="easeOutExpo">The Best to Get You Started--}}
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -195,7 +195,7 @@
 
                              data-speed="300"
                              data-start="1600"
-                             data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.
+                             {{--data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.--}}
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -206,7 +206,7 @@
 
                              data-speed="600"
                              data-start="2000"
-                             data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium">Purchase This Now</a>
+                             {{--data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium">Purchase This Now</a>--}}
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -217,7 +217,7 @@
 
                              data-speed="600"
                              data-start="2000"
-                             data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium btn-gray">See More Features</a>
+                             {{--data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium btn-gray">See More Features</a>--}}
                         </div>
 
                         <!-- LAYER NR. 6 -->
@@ -229,7 +229,7 @@
                              data-start="2100"
                              data-easing="Power1.easeOut"
                              data-customin="x:300;y:-40;z:-400;rotationX:0;rotationY:0;rotationZ:-20;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;">
-                            <img src="images/slide-01-image-02.png" alt="" style="width:193px; height: 231px;" />
+                            <img src="{{url('assets/images/slide-01-image-02.png')}}" alt="" style="width:193px; height: 231px;" />
                         </div>
 
                         <!-- LAYER NR. 7 -->
@@ -241,7 +241,7 @@
                              data-start="2600"
                              data-easing="Power1.easeOut"
                              data-customin="x:-200;y:20;z:-500;rotationX:0;rotationY:0;rotationZ:10;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;">
-                            <img src="images/slide-01-image-01.png" alt="" style="width:80px; height: 101px;" />
+                            <img src="{{url('assets/images/slide-01-image-01.png')}}" alt="" style="width:80px; height: 101px;" />
                         </div>
 
                     </li>
