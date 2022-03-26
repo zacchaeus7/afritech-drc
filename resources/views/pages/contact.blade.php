@@ -124,7 +124,7 @@
                 <div class="col-md-4">
 
                     <!-- Classic Heading -->
-                    <h4 class="classic-title"><span>Information</span></h4>
+                    <h4 class="classic-title"><span>DRC OFFICE:</span></h4>
 
                     <!-- Some Info -->
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
@@ -134,9 +134,10 @@
 
                     <!-- Info - Icons List -->
                     <ul class="icons-list">
-                        <li><i class="icon-location-1"></i> <strong>Address:</strong> 1234 Street Name, City Name, Egypt.</li>
-                        <li><i class="icon-mail-1"></i> <strong>Email:</strong> <a href="https://zoomarts.works/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f59c9b939ab58c9a8087969a9885949b8cdb969a98">[email&#160;protected]</a></li>
-                        <li><i class="icon-mobile-1"></i> <strong>Phone:</strong> +12 345 678 001</li>
+                        <li><i class="icon-location-1"></i> <strong>Address:</strong> 272, avenue Mpolo. Q/Kalubwe, C/Lubumbashi.</li>
+                        <li><i class="icon-mail-1"></i> <strong>Email:</strong> <a href="" data-cfemail="f59c9b939ab58c9a8087969a9885949b8cdb969a98">info@africtech-drc.com</a></li>
+                        <li><i class="icon-mobile-1"></i> <strong>Phone:</strong> +243 995 380 784/</li>
+                        <li><i class="icon-mobile-1"></i> <strong>Phone:</strong> +243 853 387 170</li>
                     </ul>
 
                     <!-- Divider -->
