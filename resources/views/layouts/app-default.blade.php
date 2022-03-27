@@ -284,10 +284,11 @@
                     <div class="footer-widget contact-widget">
                         <h4>Contact info<span class="head-line"></span></h4>
                         <ul>
-                            <li><span>Address:</span> Des Poids-Lourds Street, n°4, Kinshasa/Limeté, Drc</li>
-                            <li><span>Phone Number:</span> +243(0)812702000</li>
-                            <li><span>Fax Number:</span> +01 234 567 890</li>
-                            <li><span>Email:</span> <a href="" class="__cf_email__" data-cfemail="61020e0c11000f1821020e0c11000f184f020e0c">Info@MWAfritec.com</a></li>
+                            <li><span>Address:</span> 272, Mpolo Street. Q/Kalubwe,</li>
+                            <li><span>Phone Number:</span> +243 995 380 784/</li>
+                            <li><span>Phone Number:</span> +243 995 380 784/</li>
+                            <li><span>Fax Number:</span> +243 853 387 170</li>
+                            <li><span>Email:</span> <a href="" class="__cf_email__" data-cfemail="">info@africtech-drc.com</a></li>
                             <li><span>Website:</span> www.afritech-drc.com</li>
                         </ul>
                     </div>
@@ -409,7 +410,7 @@
             <div class="copyright-section">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>© 2022 Afritech -  All Rights Reserved</p>
+                        <p>© {{date('Y')}} Afritech -  All Rights Reserved</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="footer-nav">

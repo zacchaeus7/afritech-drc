@@ -154,6 +154,28 @@
                     </ul>
 
                 </div>
+                <div class="col-md-4">
+
+                    <!-- Classic Heading -->
+                    <h4 class="classic-title"><span>SOUTH AFRICA OFFICE:</span></h4>
+
+                    <!-- Some Info -->
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+
+                    <!-- Divider -->
+                    <div class="hr1" style="margin-bottom:10px;"></div>
+
+                    <!-- Info - Icons List -->
+                    <ul class="icons-list">
+                        <li><i class="icon-location-1"></i> <strong>Address:</strong> 10 Lusitania Lane, Cap town.</li>
+                        <li><i class="icon-mail-1"></i> <strong>Email:</strong> <a href="" >info@africtech-drc.com</a></li>
+                        <li><i class="icon-mobile-1"></i> <strong>Phone:</strong> +277 697 850 79</li>
+                    </ul>
+
+                    <!-- Divider -->
+                    <div class="hr1" style="margin-bottom:15px;"></div>
+
+                </div>
 
             </div>
 
