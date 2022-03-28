@@ -1,0 +1,1 @@
+SELECT * FROM afritech_drc.users;

@@ -128,5 +128,8 @@ class AdminController extends Controller
     }
 
 
+    public function edit_project($id){
+
+    }
 
 }

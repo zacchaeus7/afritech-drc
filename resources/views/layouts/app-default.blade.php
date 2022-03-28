@@ -188,11 +188,11 @@
                             <a href="{{url('/our-services')}}">Services</a>
                         </li>
                         <li>
-                            <a href="{{url('about-us')}}">About</a>
-                        </li>
-                        <li>
                             <a href="{{url('portfolio')}}">Portfolio</a>
 
+                        </li>
+                        <li>
+                            <a href="{{url('about-us')}}">About</a>
                         </li>
                         <li><a href="{{url('/contact-us')}}">Contact</a></li>
                     </ul>

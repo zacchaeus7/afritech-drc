@@ -49,6 +49,7 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin'], function() {
         Route::get('project/project_create','AdminController@create_project');
         Route::post('project/project_create','AdminController@store_project');
 
+
         Route::get('partners/partner_create','AdminController@create_partner');
         Route::post('partners/partner_create','AdminController@store_partner');
 

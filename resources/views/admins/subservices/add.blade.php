@@ -7,7 +7,7 @@
                 <h3 class="card-title">Sub services</h3>
             </div>
             <form method="POST"  enctype="multipart/form-data" action="{{ ($data['action'] == "edit") ?url('subservice/'.$data['service']->id) : url('subservice')}}">
-
+                @method('PATCH')
                 @csrf
                 <div class="card-body">
                     <div class="form-group">

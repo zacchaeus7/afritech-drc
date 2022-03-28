@@ -176,7 +176,7 @@
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-edit"></i>
                             <p>
-                                Services
+                                Template management
                                 <i class="fas fa-angle-left right"></i>
                             </p>
                         </a>
@@ -200,9 +200,9 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="pages/forms/validation.html" class="nav-link">
+                                <a href="{{url('subservice')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Validation</p>
+                                    <p>Sub services</p>
                                 </a>
                             </li>
                         </ul>

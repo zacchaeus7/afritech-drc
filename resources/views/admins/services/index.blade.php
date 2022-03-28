@@ -37,7 +37,12 @@
                            <td>{{$service->title}}</td>
                            <td>
                                <a href="{{url('service/'.$service->id).'/edit'}}"><span class="badge bg-success">edit</span></a>
-                               <a href="{{url('service/delete/'.$service->id)}}"><span class="badge bg-danger">delete</span></a>
+                               <form action="{{ url('service/'.$service->id) }}" method="POST">
+
+                                   @csrf
+                                   @method('DELETE')
+                                   <button type="submit" class="btn btn-danger">delete</button>
+                               </form>
                            </td>
                        </tr>
                    @endforeach

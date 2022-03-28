@@ -94,7 +94,7 @@ class ServiceController extends Controller
 
     public function destroy($id)
     {
-        $this->repository->delete('service',$id);
+        $this->repository->delete('services',$id);
 
         return redirect(url('service'));
     }

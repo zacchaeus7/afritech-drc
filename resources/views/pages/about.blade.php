@@ -67,39 +67,21 @@
                     <div class="col-md-6">
 
                         <!-- Classic Heading -->
-                        <h4 class="classic-title"><span>Our Skills</span></h4>
+                        <h4 class="classic-title"><span>Our Vision</span></h4>
 
-                        <!-- Start Progress Bar 1 -->
-                        <div class="progress-label">HTML/CSS</div>
-                        <div class="progress progress-striped">
-                            <div class="progress-bar progress-bar-primary" data-progress-animation="98%">
-                                <span class="percentage">98%</span>
-                            </div>
-                        </div>
-
-                        <!-- Start Progress Bar 2 -->
-                        <div class="progress-label">Web Developing</div>
-                        <div class="progress progress-striped">
-                            <div class="progress-bar progress-bar-primary" data-progress-animation="96%" data-appear-animation-delay="400">
-                                <span class="percentage">96%</span>
-                            </div>
-                        </div>
-
-                        <!-- Start Progress Bar 3 -->
-                        <div class="progress-label">Video marketing</div>
-                        <div class="progress progress-striped">
-                            <div class="progress-bar progress-bar-primary" data-progress-animation="94%" data-appear-animation-delay="800">
-                                <span class="percentage">94%</span>
-                            </div>
-                        </div>
-
-                        <!-- Start Progress Bar 4 -->
-                        <div class="progress-label">Support</div>
-                        <div class="progress progress-striped">
-                            <div class="progress-bar progress-bar-primary" data-progress-animation="100%" data-appear-animation-delay="1200">
-                                <span class="percentage">100%</span>
-                            </div>
-                        </div>
+                      <p>
+                          *Satisfying you is our goal * this is our slogan. As a
+                          company governed by Congolese law, our vision is to
+                          promote skilled and unskilled local labor. Produce quality
+                          work in accordance with international standards. To
+                          support motivated, talented, flexible young people; our
+                          employees, our customers, our suppliers and partners in
+                          compliance with social and environmental legislation.
+                          Continue to expand our leadership role in the mining,
+                          petroleum and environmental market. Being competitive
+                          with new technology, having high productivity, profitable
+                          techniques by building relationships with our customers
+                          and employees based on performance, skills and trust</p>
 
                     </div>
 
@@ -111,41 +93,28 @@
                         <!-- Accordion -->
                         <div class="panel-group" id="accordion">
 
+
                             <!-- Start Accordion 1 -->
-                            <div class="panel panel-default">
-                                <!-- Toggle Heading -->
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
-                                            <i class="icon-down-open-1 control-icon"></i>
-                                            <i class="icon-laptop-1"></i> Fully Responsive Theme
-                                        </a>
-                                    </h4>
+                            @foreach($services as $service)
+
+                                <div class="panel panel-default">
+                                    <!-- Toggle Heading -->
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed">
+                                                <i class="icon-down-open-1 control-icon"></i>
+                                                <i class="icon-gift-1"></i> {{$service->title}}
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <!-- Toggle Content -->
+                                    <div id="collapse-2" class="panel-collapse collapse">
+                                        <div class="panel-body"> {{$service->description}} </div>
+                                    </div>
                                 </div>
-                                <!-- Toggle Content -->
-                                <div id="collapse-1" class="panel-collapse collapse in">
-                                    <div class="panel-body"><img class="img-thumbnail image-text" style="float:left; width:150px;" alt="" src="images/bussniss-pic.jpg" /> <strong class="accent-color">Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown <strong>printer</strong> took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-                                </div>
-                            </div>
+                            @endforeach
                             <!-- End Accordion 1 -->
 
-                            <!-- Start Accordion 2 -->
-                            <div class="panel panel-default">
-                                <!-- Toggle Heading -->
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed">
-                                            <i class="icon-down-open-1 control-icon"></i>
-                                            <i class="icon-gift-1"></i> Touchable Slider
-                                        </a>
-                                    </h4>
-                                </div>
-                                <!-- Toggle Content -->
-                                <div id="collapse-2" class="panel-collapse collapse">
-                                    <div class="panel-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. The point of using Lorem Ipsum is that it has a <strong>more-or-less</strong> normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                                </div>
-                            </div>
-                            <!-- End Accordion 2 -->
 
                         </div>
                     </div>
