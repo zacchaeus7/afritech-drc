@@ -32,12 +32,12 @@
                     <div class="col-md-7">
 
                         <!-- Classic Heading -->
-                        <h4 class="classic-title"><span>Welcome To Our Agency</span></h4>
+                        <h4 class="classic-title"><span>Welcome To Our Compagny</span></h4>
 
                         <!-- Some Text -->
-                        <p>MW AFRITEC, present for more than 20 years in the DRC, with the objective of rebuilding our great country, has its head office in Kinshasa and other representative offices in the DRCongo and abroad.
+                        <p>AFRITEC, present for more than 20 years in the DRC, with the objective of rebuilding our great country, has its head office in Kinshasa and other representative offices in the DRCongo and abroad.
 
-                            MW AFRITEC SPRL holds an exceptional position in the field of construction and Civil Engineering thanks to its many specialists and Technicians in the fields of African Building and Public Works and engineering in general.
+                            AFRITEC SPRL holds an exceptional position in the field of construction and Civil Engineering thanks to its many specialists and Technicians in the fields of African Building and Public Works and engineering in general.
 
                             The firm currently employs 272 contracted agents including 35 engineers and technicians and nearly 500 temporary agents on various worksites.
                             Since 2009, the MW Afritec Company has experienced an extension in its activities in the field of agriculture and livestock as well as in the field of transport.</p>

@@ -284,10 +284,11 @@
                     <div class="footer-widget contact-widget">
                         <h4>Contact info<span class="head-line"></span></h4>
                         <ul>
-                            <li><span>Address:</span> Des Poids-Lourds Street, n°4, Kinshasa/Limeté, Drc</li>
-                            <li><span>Phone Number:</span> +243(0)812702000</li>
-                            <li><span>Fax Number:</span> +01 234 567 890</li>
-                            <li><span>Email:</span> <a href="" class="__cf_email__" data-cfemail="61020e0c11000f1821020e0c11000f184f020e0c">Info@MWAfritec.com</a></li>
+                            <li><span>Address:</span> 272, Mpolo Street. Q/Kalubwe,</li>
+                            <li><span>Phone Number:</span> +243 995 380 784/</li>
+                            <li><span>Phone Number:</span> +243 995 380 784/</li>
+                            <li><span>Fax Number:</span> +243 853 387 170</li>
+                            <li><span>Email:</span> <a href="" class="__cf_email__" data-cfemail="">info@africtech-drc.com</a></li>
                             <li><span>Website:</span> www.afritech-drc.com</li>
                         </ul>
                     </div>
@@ -298,6 +299,7 @@
                 <div class="col-md-3">
                     <div class="footer-widget flickr-widget">
                         <h4>Flicker Feed<span class="head-line"></span></h4>
+
 
 
                         <ul class="flickr-list">
@@ -408,7 +410,7 @@
             <div class="copyright-section">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>© 2022 Afritech -  All Rights Reserved</p>
+                        <p>© {{date('Y')}} Afritech -  All Rights Reserved</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="footer-nav">
@@ -441,54 +443,54 @@
     </div>
 </div>
 
-<!-- Style Switcher -->
-<div class="switcher-box">
-    <a href="#" class="open-switcher show-switcher"><i class="icon-cog-1"></i></a>
-    <h4>Style Switcher</h4>
-    <span>12 Predefined Color Skins</span>
-    <ul class="colors-list">
-        <li><a onClick="setActiveStyleSheet('blue'); return false;" title="Blue" class="blue"></a></li>
-        <li><a onClick="setActiveStyleSheet('sky-blue'); return false;" title="Sky Blue" class="sky-blue"></a></li>
-        <li><a onClick="setActiveStyleSheet('cyan'); return false;" title="Cyan" class="cyan"></a></li>
-        <li><a onClick="setActiveStyleSheet('jade'); return false;" title="Jade" class="jade"></a></li>
-        <li><a onClick="setActiveStyleSheet('green'); return false;" title="Green" class="green"></a></li>
-        <li><a onClick="setActiveStyleSheet('purple'); return false;" title="Purple" class="purple"></a></li>
-        <li><a onClick="setActiveStyleSheet('pink'); return false;" title="Pink" class="pink"></a></li>
-        <li><a onClick="setActiveStyleSheet('red'); return false;" title="Red" class="red"></a></li>
-        <li><a onClick="setActiveStyleSheet('orange'); return false;" title="Orange" class="orange"></a></li>
-        <li><a onClick="setActiveStyleSheet('yellow'); return false;" title="Yellow" class="yellow"></a></li>
-        <li><a onClick="setActiveStyleSheet('peach'); return false;" title="Peach" class="peach"></a></li>
-        <li><a onClick="setActiveStyleSheet('beige'); return false;" title="Biege" class="beige"></a></li>
-    </ul>
-    <span>Top Bar Color</span>
-    <select id="topbar-style" class="topbar-style">
-        <option value="1">Light (Default)</option>
-        <option value="2">Dark</option>
-        <option value="3">Color</option>
-    </select>
-    <span>Layout Style</span>
-    <select id="layout-style" class="layout-style">
-        <option value="1">Wide</option>
-        <option value="2">Boxed</option>
-    </select>
-    <span>Patterns for Boxed Version</span>
-    <ul class="bg-list">
-        <li><a href="#" class="bg1"></a></li>
-        <li><a href="#" class="bg2"></a></li>
-        <li><a href="#" class="bg3"></a></li>
-        <li><a href="#" class="bg4"></a></li>
-        <li><a href="#" class="bg5"></a></li>
-        <li><a href="#" class="bg6"></a></li>
-        <li><a href="#" class="bg7"></a></li>
-        <li><a href="#" class="bg8"></a></li>
-        <li><a href="#" class="bg9"></a></li>
-        <li><a href="#" class="bg10"></a></li>
-        <li><a href="#" class="bg11"></a></li>
-        <li><a href="#" class="bg12"></a></li>
-        <li><a href="#" class="bg13"></a></li>
-        <li><a href="#" class="bg14"></a></li>
-    </ul>
-</div>
+{{--<!-- Style Switcher -->--}}
+{{--<div class="switcher-box">--}}
+    {{--<a href="#" class="open-switcher show-switcher"><i class="icon-cog-1"></i></a>--}}
+    {{--<h4>Style Switcher</h4>--}}
+    {{--<span>12 Predefined Color Skins</span>--}}
+    {{--<ul class="colors-list">--}}
+        {{--<li><a onClick="setActiveStyleSheet('blue'); return false;" title="Blue" class="blue"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('sky-blue'); return false;" title="Sky Blue" class="sky-blue"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('cyan'); return false;" title="Cyan" class="cyan"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('jade'); return false;" title="Jade" class="jade"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('green'); return false;" title="Green" class="green"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('purple'); return false;" title="Purple" class="purple"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('pink'); return false;" title="Pink" class="pink"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('red'); return false;" title="Red" class="red"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('orange'); return false;" title="Orange" class="orange"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('yellow'); return false;" title="Yellow" class="yellow"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('peach'); return false;" title="Peach" class="peach"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('beige'); return false;" title="Biege" class="beige"></a></li>--}}
+    {{--</ul>--}}
+    {{--<span>Top Bar Color</span>--}}
+    {{--<select id="topbar-style" class="topbar-style">--}}
+        {{--<option value="1">Light (Default)</option>--}}
+        {{--<option value="2">Dark</option>--}}
+        {{--<option value="3">Color</option>--}}
+    {{--</select>--}}
+    {{--<span>Layout Style</span>--}}
+    {{--<select id="layout-style" class="layout-style">--}}
+        {{--<option value="1">Wide</option>--}}
+        {{--<option value="2">Boxed</option>--}}
+    {{--</select>--}}
+    {{--<span>Patterns for Boxed Version</span>--}}
+    {{--<ul class="bg-list">--}}
+        {{--<li><a href="#" class="bg1"></a></li>--}}
+        {{--<li><a href="#" class="bg2"></a></li>--}}
+        {{--<li><a href="#" class="bg3"></a></li>--}}
+        {{--<li><a href="#" class="bg4"></a></li>--}}
+        {{--<li><a href="#" class="bg5"></a></li>--}}
+        {{--<li><a href="#" class="bg6"></a></li>--}}
+        {{--<li><a href="#" class="bg7"></a></li>--}}
+        {{--<li><a href="#" class="bg8"></a></li>--}}
+        {{--<li><a href="#" class="bg9"></a></li>--}}
+        {{--<li><a href="#" class="bg10"></a></li>--}}
+        {{--<li><a href="#" class="bg11"></a></li>--}}
+        {{--<li><a href="#" class="bg12"></a></li>--}}
+        {{--<li><a href="#" class="bg13"></a></li>--}}
+        {{--<li><a href="#" class="bg14"></a></li>--}}
+    {{--</ul>--}}
+{{--</div>--}}
 
 <!-- Histats.com  START (hidden counter)-->
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>

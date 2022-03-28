@@ -33,7 +33,7 @@
 
                              data-speed="300"
                              data-start="1900"
-                             data-easing="easeOutExpo">The best template to get you started
+                             {{--data-easing="easeOutExpo">The best template to get you started--}}
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -43,7 +43,7 @@
 
                              data-speed="300"
                              data-start="2200"
-                             data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.
+                             {{--data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.--}}
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -53,7 +53,7 @@
 
                              data-speed="300"
                              data-start="2500"
-                             data-easing="easeOutExpo"><a href="#" class="tp-caption btn-system btn-large border-btn btn-gray">Purchase This Now</a>
+                             {{--data-easing="easeOutExpo"><a href="#" class="tp-caption btn-system btn-large border-btn btn-gray">Purchase This Now</a>--}}
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -146,7 +146,7 @@
                              data-speed="600"
                              data-start="1000"
                              data-easing="easeOutBack"
-                             style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />
+                             {{--style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />--}}
                         </div>
 
                         <!-- LAYER NR. 8 -->
@@ -185,7 +185,7 @@
 
                              data-speed="300"
                              data-start="1300"
-                             data-easing="easeOutExpo">The Best to Get You Started
+                             {{--data-easing="easeOutExpo">The Best to Get You Started--}}
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -195,7 +195,7 @@
 
                              data-speed="300"
                              data-start="1600"
-                             data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.
+                             {{--data-easing="easeOutExpo">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br/>accusantium doloremque laudantium, totam rem aperiam.--}}
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -206,7 +206,7 @@
 
                              data-speed="600"
                              data-start="2000"
-                             data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium">Purchase This Now</a>
+                             {{--data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium">Purchase This Now</a>--}}
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -217,7 +217,7 @@
 
                              data-speed="600"
                              data-start="2000"
-                             data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium btn-gray">See More Features</a>
+                             {{--data-easing="easeOutExpo"><a href="#" class="btn-system btn-medium btn-gray">See More Features</a>--}}
                         </div>
 
                         <!-- LAYER NR. 6 -->
@@ -229,7 +229,7 @@
                              data-start="2100"
                              data-easing="Power1.easeOut"
                              data-customin="x:300;y:-40;z:-400;rotationX:0;rotationY:0;rotationZ:-20;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;">
-                            <img src="images/slide-01-image-02.png" alt="" style="width:193px; height: 231px;" />
+                            <img src="{{url('assets/images/slide-01-image-02.png')}}" alt="" style="width:193px; height: 231px;" />
                         </div>
 
                         <!-- LAYER NR. 7 -->
@@ -241,7 +241,7 @@
                              data-start="2600"
                              data-easing="Power1.easeOut"
                              data-customin="x:-200;y:20;z:-500;rotationX:0;rotationY:0;rotationZ:10;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;">
-                            <img src="images/slide-01-image-01.png" alt="" style="width:80px; height: 101px;" />
+                            <img src="{{url('assets/images/slide-01-image-01.png')}}" alt="" style="width:80px; height: 101px;" />
                         </div>
 
                     </li>
@@ -326,7 +326,7 @@
                 <div class="service-content">
                     <h4>{{$service->title}}
                     </h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <strong class="accent-color">odit aut</strong> fugit, sed quia dolores.</p>
+                    <p>{{substr($service->description,0,100).'...'}}</p>
                 </div>
             </div></a>
             @endforeach
@@ -485,21 +485,27 @@
 
         <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-6">
 
                 <!-- Start Big Heading -->
                 <div class="big-title">
-                    <h1>Our Great <strong>Team</strong></h1>
+                    <h1> <strong>PROJECT MANAGEMENT</strong></h1>
                 </div>
                 <!-- End Big Heading -->
-
+                    <p>TO ACHIEVE ITS VISION, THE COMPANY:</p>
                 <!-- Some Text -->
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five cent, but also the leap into electronic typesetting, remaining essentially unchanged. It was popular in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, more recently with desktop publishing software like Aldus PageMaker including versions.</p>
+                        <ul class="icons-list">
+                            <li><i class="icon-check-2"></i> Provides superior technical quality and appropriate engineering solutions on all projects;</li>
+                            <li><i class="icon-check-2"></i> Offers unparalleled treatment and quality of service to all its customers, thus developing a solid relationship with them aimed at their satisfaction;</li>
+                            <li><i class="icon-check-2"></i> Employs world-class, experienced and highly motivated qualified staff while continuously identifying and encouraging young, energetic and intelligent individuals to achieve their full potential;</li>
+                            <li><i class="icon-check-2"></i> Creates opportunities for innovation and advancement of its staff</li>
+                            <li><i class="icon-check-2"></i> Implements sound business management principles and effective strategies to ensure the long-term viability and growth of the business.</li>
+                        </ul>
             </div>
 
             <!-- Start Progress Bars -->
 
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <!-- Start Progress Bar 1 -->
                 @foreach($services as $service)
                     <div class="progress-label">{{$service->title}}</div>
