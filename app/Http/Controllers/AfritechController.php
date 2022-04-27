@@ -30,7 +30,8 @@ class AfritechController extends Controller
 
         $services = $this->repository->findAll('services');
         $sub_services = $this->repository->findAll('sub_service');
-        //substr('',0,150)
+
+
         return view('pages.service',compact('services','sub_services'));
     }
 

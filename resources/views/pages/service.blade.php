@@ -30,16 +30,16 @@
         <div class="container">
             <div class="page-content">
 
-
                 <div class="row">
-
                     <!-- Start Image Service Box 1 -->
                     @foreach($services as $service)
-                        <a href="{{url('my-service',$service->id)}}"> <div class="col-md-3 image-service-box">
+                        <div class="col-md-3 image-service-box">
+                            <a href="{{url('my-service',$service->id)}}">
                                 <img class="img-thumbnail" src="{{url('assets/images/services/'.$service->cover)}}" alt="" />
                                 <h4>{{$service->title}}</h4>
                                 <p>{{substr($service->description,0,200)}} <strong>' ...Lire plus'</strong> </p>
-                            </div></a>
+                            </a>
+                        </div>
                     @endforeach
 
                     <!-- End Image Service Box 1 -->
