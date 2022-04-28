@@ -296,39 +296,55 @@
                 <!-- End Contact Widget -->
 
                 <!-- Start Flickr Widget -->
-                <div class="col-md-3">
+                <div class="col-md-5">
                     <div class="footer-widget flickr-widget">
-                        <h4>Flicker Feed<span class="head-line"></span></h4>
-
-
+                        <h4>Our partners<span class="head-line"></span></h4>
 
                         <ul class="flickr-list">
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-01.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner1.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-02.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner2.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-03.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner3.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-04.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner4.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-05.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner5.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-06.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner6.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-07.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner7.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-08.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner8.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="images/flickr-09.jpg"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner9.png')}}"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner10.png')}}"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner11.png')}}"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner12.png')}}"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner13.png')}}"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner14.png')}}"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner15.png')}}"></a>
                             </li>
                         </ul>
                     </div>
@@ -358,7 +374,7 @@
                 {{--<!-- End Twitter Widget -->--}}
 
                 <!-- Start Subscribe & Social Links Widget -->
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="footer-widget mail-subscribe-widget">
                         <h4>Get in touch<span class="head-line"></span></h4>
                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>

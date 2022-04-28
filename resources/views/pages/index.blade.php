@@ -421,7 +421,7 @@
         <!-- Start Big Heading -->
         <div class="big-title text-center">
             <p class="title-desc">Showcase Your Work</p>
-            <h1>This is Our Latest <strong>Work</strong></h1>
+            <h1>Latest <strong>Work</strong></h1>
         </div>
         <!-- End Big Heading -->
 
