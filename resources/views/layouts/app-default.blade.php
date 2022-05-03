@@ -16,10 +16,10 @@
     <meta name="author" content="ZoOm Arts">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{url('assets/images/favicon.png')}}">
+    <link rel="shortcut icon" href="{{url('assets/images/ficon.png')}}">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{url('assets/images/favicon.png')}}">
+    <link rel="shortcut icon" href="{{url('assets/images/ficon.png')}}">
 
 
     <!-- Bootstrap CSS  -->
@@ -99,8 +99,8 @@
                     <div class="col-md-6">
                         <!-- Start Contact Info -->
                         <ul class="contact-details">
-                            <li><a href="#"><i class="icon-mobile-2"></i> +243 97 43 75 371</a></li>
-                            <li><a href="#"><i class="icon-mail-2"></i> <span class="__cf_email__" data-cfemail="11787f777e51687e6463727e7c61707f683f727e7c">zackabemba4@gmail.com</span></a></li>
+                            <li><a href="#"><i class="icon-mobile-2"></i> +243 995 380 784/+243 995 380 784</a></li>
+                            <li><a href="#"><i class="icon-mail-2"></i> <span class="__cf_email__" data-cfemail="11787f777e51687e6463727e7c61707f683f727e7c"> info@africtech-drc.com</span></a></li>
                         </ul>
                         <!-- End Contact Info -->
                     </div>
@@ -154,8 +154,7 @@
                         <i class="icon-menu-1"></i>
                     </button>
                     <!-- End Toggle Nav Link For Mobiles -->
-                    <a class="navbar-brand" href=""><img alt="" src="{{url('assets/images/
-                    .png')}}"></a>
+                    <a class="navbar-brand" href=""><img alt="" src="{{url('assets/images/africtech.png')}}" width="300px"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <!-- Stat Search -->
@@ -289,7 +288,7 @@
                             <li><span>Phone Number:</span> +243 995 380 784/</li>
                             <li><span>Fax Number:</span> +243 853 387 170</li>
                             <li><span>Email:</span> <a href="" class="__cf_email__" data-cfemail="">info@africtech-drc.com</a></li>
-                            <li><span>Website:</span> www.afritech-drc.com</li>
+                            <li><span>Website:</span> www.africtech-drc.com</li>
                         </ul>
                     </div>
                 </div>
@@ -426,7 +425,7 @@
             <div class="copyright-section">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>© {{date('Y')}} Afritech -  All Rights Reserved</p>
+                        <p>© {{date('Y')}} Africtech -  All Rights Reserved</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="footer-nav">
@@ -438,11 +437,9 @@
                 </div>
             </div>
             <!-- End Copyright -->
-
         </div>
     </footer>
     <!-- End Footer -->
-
 </div>
 <!-- End Container -->
 
