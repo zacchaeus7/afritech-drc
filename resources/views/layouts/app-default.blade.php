@@ -154,7 +154,7 @@
                         <i class="icon-menu-1"></i>
                     </button>
                     <!-- End Toggle Nav Link For Mobiles -->
-                    <a class="navbar-brand" href=""><img alt="" src="{{url('assets/images/africtech.png')}}" width="300px"></a>
+                    <a class="navbar-brand" href=""><img alt="" src="{{url('assets/images/africtech.png')}}" width="300px" height="50px"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <!-- Stat Search -->
