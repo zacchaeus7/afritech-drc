@@ -279,7 +279,7 @@
             <div class="row footer-widgets">
 
                 <!-- Start Contact Widget -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="footer-widget contact-widget">
                         <h4>Contact info<span class="head-line"></span></h4>
                         <ul>
@@ -295,10 +295,10 @@
                 <!-- End Contact Widget -->
 
                 <!-- Start Flickr Widget -->
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <div class="footer-widget flickr-widget">
                         <h4>Our partners<span class="head-line"></span></h4>
-
+                        
                         <ul class="flickr-list">
                             <li>
                                 <a href="#"><img alt="" src="{{url('assets/images/partners/partner1.png')}}"></a>
@@ -351,7 +351,7 @@
                 <!-- End Flickr Widget -->
 
                 {{--<!-- Start Twitter Widget -->--}}
-                {{--<div class="col-md-3">--}}
+                {{--<div class="col-md-4">--}}
                     {{--<div class="footer-widget twitter-widget">--}}
                         {{--<h4>Twitter Feed<span class="head-line"></span></h4>--}}
                         {{--<ul>--}}
