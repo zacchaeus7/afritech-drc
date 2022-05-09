@@ -5,7 +5,7 @@ var $ = jQuery.noConflict();
 // Page Loader
 $(window).load(function(){
 	$('#loader').fadeOut();
-    $("#container").addClass("boxed-page");
+    //$("#container").addClass("boxed-page");
     $(".top-bar").addClass("color-bar");
 });
 
