@@ -113,27 +113,25 @@
                             <li>
                                 <a class="twitter sh-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="icon-twitter-2"></i></a>
                             </li>
-                            <li>
-                                <a class="google sh-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="icon-gplus"></i></a>
-                            </li>
-                            <li>
-                                <a class="dribbble sh-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="icon-dribbble-2"></i></a>
-                            </li>
+                            {{--<li>--}}
+                                {{--<a class="google sh-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="icon-gplus"></i></a>--}}
+                            {{--</li>--}}
+
                             <li>
                                 <a class="linkdin sh-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="icon-linkedin"></i></a>
                             </li>
-                            <li>
-                                <a class="flickr sh-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="icon-flickr-1"></i></a>
-                            </li>
-                            <li>
-                                <a class="tumblr sh-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="icon-tumblr"></i></a>
-                            </li>
+                            {{--<li>--}}
+                                {{--<a class="flickr sh-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="icon-flickr-1"></i></a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a class="tumblr sh-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="icon-tumblr"></i></a>--}}
+                            {{--</li>--}}
                             <li>
                                 <a class="instgram sh-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="icon-instagramm"></i></a>
                             </li>
-                            <li>
-                                <a class="vimeo sh-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="icon-vimeo-1"></i></a>
-                            </li>
+                            {{--<li>--}}
+                                {{--<a class="vimeo sh-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="icon-vimeo-1"></i></a>--}}
+                            {{--</li>--}}
                             <li>
                                 <a class="skype sh-tooltip" data-placement="bottom" title="Skype" href="#"><i class="icon-skype-2"></i></a>
                             </li>
@@ -154,7 +152,7 @@
                         <i class="icon-menu-1"></i>
                     </button>
                     <!-- End Toggle Nav Link For Mobiles -->
-                    <a class="navbar-brand" href=""><img alt="" src="{{url('assets/images/africtech.png')}}" width="300px" height="50px"></a>
+                    <a class="navbar-brand" href=""><img alt="" src="{{url('assets/images/africtech12.png')}}" width="300px" height="50px"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <!-- Stat Search -->

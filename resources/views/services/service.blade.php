@@ -28,33 +28,27 @@
             <div class="project-page row">
 
                 <!-- Start Single Project Slider -->
-                <div class="project-media col-md-8">
+                <div class="project-media col-md-6">
                     <div class="touch-slider project-slider">
                         <div class="item">
                             <a class="lightbox" title="This is an image title" href="{{url('assets/images/services/'.$service->cover)}}" data-lightbox-gallery="gallery2">
                                 <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
-                                <img alt="" src="{{url('assets/images/services/'.$service->cover)}}">
+                                <img alt=""style="width: 300px" src="{{url('assets/images/services/'.$service->cover)}}">
                             </a>
                         </div>
-                        <div class="item">
-                            <a class="lightbox" title="This is an image title" href="{{url('assets/images/services/'.$service->cover)}}" data-lightbox-gallery="gallery2">
-                                <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
-                                <img alt="" src="{{url('assets/images/services/'.$service->cover)}}">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a class="lightbox" title="This is an image title" href="{{url('assets/images/project-big-03.jpg')}}" data-lightbox-gallery="gallery2">
-                                <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
-                                <img alt="" src="{{url('assets/images/logo.png')}}">
-                            </a>
-                        </div>
+                        {{--<div class="item">--}}
+                            {{--<a class="lightbox" title="This is an image title" href="{{url('assets/images/project-big-03.jpg')}}" data-lightbox-gallery="gallery2">--}}
+                                {{--<div class="thumb-overlay"><i class="icon-resize-full"></i></div>--}}
+                                {{--<img alt="" src="{{url('assets/images/logo.png')}}">--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
                 <!-- End Single Project Slider -->
 
                 <!-- Start Project Content -->
-                <div class="project-content col-md-4">
-                    <h4><span>Project Description</span></h4>
+                <div class="project-content col-md-6">
+                    <h4><span>Service Description</span></h4>
                     <p>{{$service->description}}</p>
                     {{--<h4><span>Project Details</span></h4>--}}
                     {{--<ul>--}}

@@ -2,7 +2,7 @@
 
 @section('content-body')
     <!-- Start Map -->
-    <div id="map" data-position-latitude="-23.559180" data-position-longitude="-46.659084" data-marker-img="{{url('assets/images/marker.png')}}"></div>
+    <div id="map" data-position-latitude="-11.647216" data-position-longitude="27.471773" data-marker-img="{{url('assets/images/marker.png')}}"></div>
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         (function ( $ ) {
             $.fn.CustomMap = function( options ) {
@@ -90,7 +90,7 @@
                     <!-- Start Contact Form -->
                     <div id="contact-form" class="contatct-form">
                         <div class="loader"></div>
-                        <form action="https://zoomarts.works/html/vella/mail.php" class="contactForm" name="cform" method="post">
+                        <form action="" class="contactForm" name="cform" method="post">
                             <div class="row">
                                 <div class="col-md-4">
                                     <label for="name">Name<span class="required">*</span></label>

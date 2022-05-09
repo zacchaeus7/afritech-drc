@@ -14,7 +14,7 @@
                     <!-- SLIDE 1 -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
                         <!-- MAIN IMAGE -->
-                        <img src="{{url('assets/images/Image-13.png')}}" data-fullwidthcentering="on" alt="slidebg2"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{{url('assets/images/sliders/3.png')}}" data-fullwidthcentering="on" alt="slidebg2"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption uppercase big_font_size boldest_font_weight dark_font_color sft start"
@@ -71,7 +71,7 @@
                     <!-- SLIDE 2  -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
                         <!-- MAIN IMAGE -->
-                        <img src="{{url('assets/images/slider-11.png')}}" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{{url('assets/images/sliders/1.png')}}" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
@@ -158,7 +158,7 @@
                              data-speed="600"
                              data-start="1300"
                              data-easing="easeOutBack"
-                             style="z-index: 1"><img src="{{url('assets/images/slide-03-image-02.png')}}" alt="" />
+                             style="z-index: 1"><img src="{{url('assets/images/sliders/3.png')}}" alt="" />
                         </div>
 
                     </li>
@@ -166,7 +166,7 @@
                     <!-- SLIDE 3  -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
                         <!-- MAIN IMAGE -->
-                        <img src="{{url('assets/images/Image-12.png')}}" data-fullwidthcentering="on" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{{url('assets/images/sliders/4.png')}}" data-fullwidthcentering="on" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption uppercase big_font_size boldest_font_weight dark_font_color sft start"
@@ -229,7 +229,7 @@
                              data-start="2100"
                              data-easing="Power1.easeOut"
                              data-customin="x:300;y:-40;z:-400;rotationX:0;rotationY:0;rotationZ:-20;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;">
-                            <img src="{{url('assets/images/slide-01-image-02.png')}}" alt="" style="width:193px; height: 231px;" />
+                            <img src="{{url('assets/images/sliders/1.png')}}" alt="" style="width:193px; height: 231px;" />
                         </div>
 
                         <!-- LAYER NR. 7 -->
@@ -241,10 +241,105 @@
                              data-start="2600"
                              data-easing="Power1.easeOut"
                              data-customin="x:-200;y:20;z:-500;rotationX:0;rotationY:0;rotationZ:10;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;">
-                            <img src="{{url('assets/images/slide-01-image-01.png')}}" alt="" style="width:80px; height: 101px;" />
+                            <img src="{{url('assets/images/sliders/4.png.png')}}" alt="" style="width:80px; height: 101px;" />
                         </div>
 
                     </li>
+
+                <!-- SLIDE 4  -->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+                    <!-- MAIN IMAGE -->
+                    <img src="{{url('assets/images/sliders/5.png')}}" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
+                         data-x="left"
+                         data-y="110"
+
+                         data-speed="300"
+                         data-start="1600"
+                         data-easing="easeInOutExpo"> Supply and repair of different types of pumps
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
+                         data-x="left"
+                         data-y="150"
+
+                         data-speed="300"
+                         data-start="1900"
+                         data-easing="easeInOutExpo">Industrial and domestic drilling.
+
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
+                         data-x="left"
+                         data-y="190"
+
+                         data-speed="300"
+                         data-start="2200"
+                         data-easing="easeInOutExpo">Civil engineering.
+
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption  mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
+                         data-x="left"
+                         data-y="230"
+
+                         data-speed="300"
+                         data-start="2500"
+                         data-easing="easeInOutExpo"> Supply of equipment and petroleum products
+
+                    </div>
+
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
+                         data-x="left"
+                         data-y="270"
+
+                         data-speed="300"
+                         data-start="2800"
+                         data-easing="easeInOutExpo">We also have expertise in the management of industrial.
+
+                    </div>
+
+                    <!-- LAYER NR. 6 -->
+                    <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
+                         data-x="left"
+                         data-y="310"
+
+                         data-speed="300"
+                         data-start="3100"
+                         data-easing="easeInOutExpo">domestic waste and the treatment of used oils
+                    </div>
+
+                    <!-- LAYER NR. 7 -->
+                    <div class="tp-caption sfr start"
+                         data-x="center"
+                         data-y="60"
+                         data-hoffset="100"
+
+                         data-speed="600"
+                         data-start="1000"
+                         data-easing="easeOutBack"
+                    {{--style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />--}}
+                    </div>
+
+                    <!-- LAYER NR. 8 -->
+                    <div class="tp-caption sfl start"
+                         data-x="right"
+                         data-y="70"
+                         data-hoffset="-100"
+
+                         data-speed="600"
+                         data-start="1300"
+                         data-easing="easeOutBack"
+                         style="z-index: 1"><img src="{{url('assets/images/sliders/5.png')}}" alt="" style="height: 300px" />
+                    </div>
+
+                </li>
 
                 </ul>
                 <div class="tp-bannertimer" style="visibility:hidden;"></div>
