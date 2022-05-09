@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 25 mars 2022 à 15:37
+-- Généré le : lun. 09 mai 2022 à 22:20
 -- Version du serveur : 10.4.22-MariaDB
--- Version de PHP : 7.4.28
+-- Version de PHP : 7.4.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -188,8 +188,18 @@ CREATE TABLE `sub_service` (
 --
 
 INSERT INTO `sub_service` (`id`, `title`, `description`, `cover`, `service_id`, `created_at`, `updated_at`, `is_deleted`) VALUES
-(1, 'pumpes submersibles electrique et solaire', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '1648203541.jpg', 4, '2022-03-25 08:19:01', NULL, 0),
-(2, 'Pompe de surface industrielle', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '1648217524.jpg', 4, '2022-03-25 00:12:04', NULL, 0);
+(1, 'pumpes submersibles electrique et solaire', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '1648203541.jpg', 4, '2022-03-25 08:19:01', '2022-03-25 06:00:28', 0),
+(2, 'Pompe de surface industrielle', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '1648217524.jpg', 4, '2022-03-25 00:12:04', NULL, 0),
+(3, 'Dab', 'lorem', '1652121683.png', 1, '2022-05-09 04:41:23', NULL, 0),
+(4, 'Elephant', 'lorem', '1652121721.png', 1, '2022-05-09 04:42:01', NULL, 0),
+(5, 'Exoil', 'lorem', '1652121742.png', 4, '2022-05-09 04:42:22', NULL, 0),
+(6, 'Flygt', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '1652121778.png', 1, '2022-05-09 04:42:58', NULL, 0),
+(7, 'Franklin Electric', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '1652121833.png', 1, '2022-05-09 04:43:53', NULL, 0),
+(8, 'Godwin', 'lorem', '1652121861.png', 1, '2022-05-09 04:44:21', NULL, 0),
+(9, 'Met Tool', 'lorem', '1652121900.png', 1, '2022-05-09 04:45:00', NULL, 0),
+(10, 'Metso', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '1652121939.png', 1, '2022-05-09 04:45:39', NULL, 0),
+(11, 'Selwood', 'lorem', '1652121971.png', 1, '2022-05-09 04:46:11', NULL, 0),
+(12, 'exoil', 'lorem', '1652123210.png', 1, '2022-05-09 05:06:50', NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -323,7 +333,7 @@ ALTER TABLE `services`
 -- AUTO_INCREMENT pour la table `sub_service`
 --
 ALTER TABLE `sub_service`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT pour la table `users`
