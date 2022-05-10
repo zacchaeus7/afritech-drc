@@ -35,12 +35,12 @@
                         <h4 class="classic-title"><span>Welcome To Our Compagny</span></h4>
 
                         <!-- Some Text -->
-                        <p>AFRITEC, present for more than 20 years in the DRC, with the objective of rebuilding our great country, has its head office in Kinshasa and other representative offices in the DRCongo and abroad.
+                        <p>AFRICTECH, present for more than 20 years in the DRC, with the objective of rebuilding our great country, has its head office in Kinshasa and other representative offices in the DRCongo and abroad.
 
-                            AFRITEC SPRL holds an exceptional position in the field of construction and Civil Engineering thanks to its many specialists and Technicians in the fields of African Building and Public Works and engineering in general.
+                            AFRICTECH SPRL holds an exceptional position in the field of construction and Civil Engineering thanks to its many specialists and Technicians in the fields of African Building and Public Works and engineering in general.
 
                             The firm currently employs 272 contracted agents including 35 engineers and technicians and nearly 500 temporary agents on various worksites.
-                            Since 2009, the MW Afritec Company has experienced an extension in its activities in the field of agriculture and livestock as well as in the field of transport.</p>
+                            Since 2009, the MW Africtech Company has experienced an extension in its activities in the field of agriculture and livestock as well as in the field of transport.</p>
                     </div>
 
                     <div class="col-md-5">
@@ -48,8 +48,8 @@
                         <!-- Start Touch Slider -->
                         <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
                             @foreach($services as $service)
-                                <div class="item"><img alt="" src="{{url('assets/images/services/'.$service->cover)}}"></div>
-                                <div class="item"><img alt="" src="{{url('assets/images/services/'.$service->cover)}}"></div>
+                                <div class="item"><img alt="" style="width: 400px" src="{{url('assets/images/services/'.$service->cover)}}"></div>
+                                <div class="item"><img alt="" style="width: 400px"  src="{{url('assets/images/services/'.$service->cover)}}"></div>
 
                             @endforeach
                         </div>

@@ -24,4 +24,5 @@ class ServiceController extends Controller
         //var_dump($projets_service);die;
         return view('services.service',['service'=>$service,'project'=>$projets_service,'sub_services'=>$sub_services]);
     }
+    
 }

@@ -22,6 +22,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::get('/contact-us', 'AfritechController@contact');
     Route::get('/our-services', 'AfritechController@service');
     Route::get('/portfolio', 'AfritechController@portfolio');
+    Route::post('send-mail','ContactController@sendMail');
 
     Route::get('/my-service/{id}','ServiceController@repair_pump');
 

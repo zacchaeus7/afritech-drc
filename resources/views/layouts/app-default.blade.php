@@ -168,7 +168,7 @@
                     <!-- Start Navigation List -->
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="active" href="{{url('/')}}">Home</a>
+                            <a class="{{ (request()->is('/')) ? 'active' : '' }}"  href="{{url('/')}}">Home</a>
                             {{--<ul class="dropdown">--}}
                                 {{--<li><a href="index.html">Home Main Version</a></li>--}}
                                 {{--<li><a href="index-01.html">Home Version 1</a></li>--}}
@@ -182,16 +182,16 @@
                             {{--</ul>--}}
                         </li>
                         <li>
-                            <a href="{{url('/our-services')}}">Services</a>
+                            <a class="{{ (request()->is('our-services')) ? 'active' : '' }}" href="{{url('/our-services')}}">Services</a>
                         </li>
                         <li>
-                            <a href="{{url('portfolio')}}">Portfolio</a>
+                            <a class="{{ (request()->is('portfolio')) ? 'active' : '' }}" href="{{url('portfolio')}}">Portfolio</a>
 
                         </li>
                         <li>
-                            <a href="{{url('about-us')}}">About</a>
+                            <a href="{{url('about-us')}}" class="{{ (request()->is('about-us')) ? 'active' : '' }}">About</a>
                         </li>
-                        <li><a href="{{url('/contact-us')}}">Contact</a></li>
+                        <li><a href="{{url('/contact-us')}}" class="{{ (request()->is('contact-us')) ? 'active' : '' }}">Contact</a></li>
                     </ul>
                     <!-- End Navigation List -->
                 </div>
@@ -277,7 +277,7 @@
             <div class="row footer-widgets">
 
                 <!-- Start Contact Widget -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="footer-widget contact-widget">
                         <h4>Contact info<span class="head-line"></span></h4>
                         <ul>
@@ -293,7 +293,7 @@
                 <!-- End Contact Widget -->
 
                 <!-- Start Flickr Widget -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="footer-widget flickr-widget">
                         <h4>Our partners<span class="head-line"></span></h4>
                         
@@ -371,7 +371,7 @@
                 {{--<!-- End Twitter Widget -->--}}
 
                 <!-- Start Subscribe & Social Links Widget -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="footer-widget mail-subscribe-widget">
                         <h4>Get in touch<span class="head-line"></span></h4>
                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>

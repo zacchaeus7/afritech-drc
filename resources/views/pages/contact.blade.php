@@ -90,7 +90,7 @@
                     <!-- Start Contact Form -->
                     <div id="contact-form" class="contatct-form">
                         <div class="loader"></div>
-                        <form action="" class="contactForm" name="cform" method="post">
+                        <form action="{{url('send-mail')}}" class="contactForm" name="cform" method="post">
                             <div class="row">
                                 <div class="col-md-4">
                                     <label for="name">Name<span class="required">*</span></label>
@@ -112,7 +112,7 @@
                                     <label for="message">Add Your Comment</label>
                                     <span class="message-missing">Say something!</span>
                                     <textarea id="message" name="message" cols="45" rows="10"></textarea>
-                                    <input type="submit" name="submit" class="button" id="submit_btn" value="Send Message">
+                                    <input type="submit" name="submit" class="button"  value="Send Message">
                                 </div>
                             </div>
                         </form>

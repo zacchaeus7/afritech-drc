@@ -11,7 +11,7 @@ a {
 }
 
 .top-bar a:hover {
-	color: #00afd1;
+	color: #00005e;
 }
 
 .section-overlay {
@@ -19,7 +19,7 @@ a {
 }
 
 .top-bar.color-bar {
-	background-color: #00afd1;
+	background-color: #00005e;
 }
 
 .service-box .read-more {
@@ -32,19 +32,19 @@ a.main-button, input[type="submit"] {
 
 .navbar-default .navbar-nav > li:hover > a,
 .navbar-default .navbar-nav > li > a.active {
-	color: #00afd1;
+	color: #00005e;
 }
 
 .dropdown > li:hover > a, .sup-dropdown li:hover > a {
-	color: #00afd1;
+	color: #00005e;
 }
 
 .navbar-default .navbar-nav > li > a:after {
-	background-color: #00afd1;
+	background-color: #00005e;
 }
 
 .navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li:hover > a {
-	border-color: #00afd1;
+	border-color: #00005e;
 }
 
 .dropdown  li a.active, .sup-dropdown li a.active {
@@ -133,7 +133,7 @@ ul.breadcrumbs li a:hover {
 }
 
 ul.icons-list li i {
-	color: #00afd1;
+	color: #00005e;
 }
 
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {

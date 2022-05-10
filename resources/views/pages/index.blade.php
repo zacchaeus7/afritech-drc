@@ -290,7 +290,7 @@
                 <div class="hr1" style="margin-bottom:20px;"></div>
 
                 <!-- Button -->
-                <a href="{{url('/about-us')}}" class="btn-system btn-small">More Informations</a>
+                <a href="{{url('/about-us')}}" class="btn-system btn-small" style="background-color: #00005e">More Informations</a>
             </div>
             <!-- End Left Side -->
 
@@ -402,7 +402,7 @@
                 @foreach($services as $service)
                     <div class="progress-label">{{$service->title}}</div>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-primary" data-progress-animation="98%">
+                        <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
                             <span class="percentage">98%</span>
                         </div>
                     </div>
