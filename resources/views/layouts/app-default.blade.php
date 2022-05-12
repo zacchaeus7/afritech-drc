@@ -393,22 +393,10 @@
                                 <a class="google" href="#"><i class="icon-gplus-1"></i></a>
                             </li>
                             <li>
-                                <a class="dribbble" href="#"><i class="icon-dribbble-2"></i></a>
-                            </li>
-                            <li>
                                 <a class="linkdin" href="#"><i class="icon-linkedin-1"></i></a>
                             </li>
                             <li>
-                                <a class="flickr" href="#"><i class="icon-flickr-1"></i></a>
-                            </li>
-                            <li>
-                                <a class="tumblr" href="#"><i class="icon-tumblr-1"></i></a>
-                            </li>
-                            <li>
                                 <a class="instgram" href="#"><i class="icon-instagramm"></i></a>
-                            </li>
-                            <li>
-                                <a class="vimeo" href="#"><i class="icon-vimeo"></i></a>
                             </li>
                             <li>
                                 <a class="skype" href="#"><i class="icon-skype-2"></i></a>
