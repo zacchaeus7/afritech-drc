@@ -6,14 +6,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="text-warning">{{$service->title}}</h2>
-                    <p>Single Project Subtitle</p>
+                    <h2 class="text-default">{{$service->title}}</h2>
+                    {{--<p>Single Project Subtitle</p>--}}
                 </div>
                 <div class="col-md-6">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Portfolio</a></li>
-                        <li>Lorem Ipsum</li>
                     </ul>
                 </div>
             </div>
@@ -129,32 +128,32 @@
 
             <hr>
             <!-- Start Recent Projects Carousel -->
-            <div class="recent-projects">
-                <h4 class="title"><span>realised Projects({{$service->title}})</span></h4>
-                <div class="projects-carousel touch-carousel">
+            {{--<div class="recent-projects">--}}
+                {{--<h4 class="title"><span>realised Projects({{$service->title}})</span></h4>--}}
+                {{--<div class="projects-carousel touch-carousel">--}}
 
-                    @foreach($project as $pro)
-                        <div class="portfolio-item item">
-                            <div class="portfolio-border">
-                                <div class="portfolio-thumb">
-                                    <a class="lightbox" data-lightbox-type="ajax" href="https://vimeo.com/78468485">
-                                        <div class="thumb-overlay"><i class="icon-video-1"></i></div>
-                                        <img alt="" src="{{url('assets/images/projects/'.$pro->cover)}}" />
-                                    </a>
-                                </div>
-                                <div class="portfolio-details">
-                                    <a href="#">
-                                        <h4>{{$pro->title}}</h4>
-                                        <span>{{$pro->description}}</span>
+                    {{--@foreach($project as $pro)--}}
+                        {{--<div class="portfolio-item item">--}}
+                            {{--<div class="portfolio-border">--}}
+                                {{--<div class="portfolio-thumb">--}}
+                                    {{--<a class="lightbox" data-lightbox-type="ajax" href="https://vimeo.com/78468485">--}}
+                                        {{--<div class="thumb-overlay"><i class="icon-video-1"></i></div>--}}
+                                        {{--<img alt="" src="{{url('assets/images/projects/'.$pro->cover)}}" />--}}
+                                    {{--</a>--}}
+                                {{--</div>--}}
+                                {{--<div class="portfolio-details">--}}
+                                    {{--<a href="#">--}}
+                                        {{--<h4>{{$pro->title}}</h4>--}}
+                                        {{--<span>{{$pro->description}}</span>--}}
 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
+                                    {{--</a>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--@endforeach--}}
 
-                </div>
-            </div>
+                {{--</div>--}}
+            {{--</div>--}}
             <!-- End Recent Projects Carousel -->
 
         </div>

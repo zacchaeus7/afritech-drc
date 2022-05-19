@@ -47,45 +47,45 @@
                 </div>
 
                 <!-- Divider -->
-                <div class="hr1" style="margin-bottom:45px;"></div>
+                {{--<div class="hr1" style="margin-bottom:45px;"></div>--}}
 
-                <div class="row">
+                {{--<div class="row">--}}
 
-                    <div class="col-md-12">
+                    {{--<div class="col-md-12">--}}
 
-                        <!-- Classic Heading -->
-                        <h4 class="classic-title text-center"><span>what we offer you</span></h4>
+                        {{--<!-- Classic Heading -->--}}
+                        {{--<h4 class="classic-title text-center"><span>what we offer you</span></h4>--}}
 
-                        <!-- Accordion -->
-                        <div class="panel-group" id="accordion">
+                        {{--<!-- Accordion -->--}}
+                        {{--<div class="panel-group" id="accordion">--}}
 
-                            @foreach($sub_services as $service)
-                                <!-- Start Accordion 1 -->
-                                    <div class="col-md-4">
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                <h4 class="panel-title">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-one">
-                                                        <i class="icon-down-open-1 control-icon"></i>
-                                                        <i class="icon-laptop-1"></i> {{$service->title}}
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapse-one" class="panel-collapse collapse in">
+                            {{--@foreach($sub_services as $service)--}}
+                                {{--<!-- Start Accordion 1 -->--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="panel panel-default">--}}
+                                            {{--<div class="panel-heading">--}}
+                                                {{--<h4 class="panel-title">--}}
+                                                    {{--<a data-toggle="collapse" data-parent="#accordion" href="#collapse-one">--}}
+                                                        {{--<i class="icon-down-open-1 control-icon"></i>--}}
+                                                        {{--<i class="icon-laptop-1"></i> {{$service->title}}--}}
+                                                    {{--</a>--}}
+                                                {{--</h4>--}}
+                                            {{--</div>--}}
+                                            {{--<div id="collapse-one" class="panel-collapse collapse in">--}}
                                                 {{--<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat. Duis aute irure dolor in reprehe in voluptate velit esse cillum dolore fugiat nulla pariatur.</div>--}}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Accordion 1 -->
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<!-- End Accordion 1 -->--}}
 
-                                @endforeach
+                                {{--@endforeach--}}
 
-                        </div>
-                        <!-- End Accordion -->
+                        {{--</div>--}}
+                        {{--<!-- End Accordion -->--}}
 
-                    </div>
+                    {{--</div>--}}
 
-                </div>
+                {{--</div>--}}
 
                 <!-- Divider -->
                 <div class="hr1" style="margin-bottom:25px;"></div>

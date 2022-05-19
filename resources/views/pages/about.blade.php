@@ -101,9 +101,11 @@
                                     <!-- Toggle Heading -->
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed">
-                                                <i class="icon-down-open-1 control-icon"></i>
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse" class="collapsed">
+                                                {{--<i class="icon-down-open-1 control-icon"></i>--}}
+                                                {{--<i class="icon-down-open-1 control-icon"></i>--}}
                                                 <i class="icon-gift-1"></i> {{$service->title}}
+                                                {{--<i class="icon-gift-1"></i> {{$service->title}}--}}
                                             </a>
                                         </h4>
                                     </div>
@@ -125,22 +127,22 @@
                 <div class="hr1" style="margin-bottom:50px;"></div>
 
                 <!-- Classic Heading -->
-                <h4 class="classic-title"><span>Our Partners</span></h4>
+                {{--<h4 class="classic-title"><span>Our Partners</span></h4>--}}
 
-                <!-- Start Team Members -->
-                <div class="row">
+                {{--<!-- Start Team Members -->--}}
+                {{--<div class="row">--}}
 
-                    @foreach($partners as $partner)
+                    {{--@foreach($partners as $partner)--}}
 
-                        <!-- Start Memebr 1 -->
-                            <div class="col-md-3">
-                                <div class="team-member">
-                                    <!-- Memebr Photo, Name & Position -->
-                                    <div class="member-photo">
-                                        <img alt="" src="{{url('assets/images/partners/',$partner->cover)}}" />
-                                        <div class="member-name">{{$partner->title}}</div>
-                                    </div>
-                                    <!-- Memebr Words -->
+                        {{--<!-- Start Memebr 1 -->--}}
+                            {{--<div class="col-md-3">--}}
+                                {{--<div class="team-member">--}}
+                                    {{--<!-- Memebr Photo, Name & Position -->--}}
+                                    {{--<div class="member-photo">--}}
+                                        {{--<img alt="" src="{{url('assets/images/partners/',$partner->cover)}}" />--}}
+                                        {{--<div class="member-name">{{$partner->title}}</div>--}}
+                                    {{--</div>--}}
+                                    {{--<!-- Memebr Words -->--}}
                                     {{--<div class="member-info">--}}
                                         {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>--}}
                                     {{--</div>--}}
@@ -152,12 +154,12 @@
                                         {{--<a class="flickr" href="#"><i class="icon-flickr-1"></i></a>--}}
                                         {{--<a class="mail" href="#"><i class="icon-mail-2"></i></a>--}}
                                     {{--</div>--}}
-                                </div>
-                            </div>
-                            <!-- End Memebr 1 -->
-                    @endforeach
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<!-- End Memebr 1 -->--}}
+                    {{--@endforeach--}}
 
-                </div>
+                {{--</div>--}}
                 <!-- End Team Members -->
 
                 <!-- Divider -->

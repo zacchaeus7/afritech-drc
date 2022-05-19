@@ -283,7 +283,6 @@
                         <ul>
                             <li><span>Address:</span> 272, Mpolo Street. Q/Kalubwe,</li>
                             <li><span>Phone Number:</span> +243 995 380 784/</li>
-                            <li><span>Phone Number:</span> +243 995 380 784/</li>
                             <li><span>Fax Number:</span> +243 853 387 170</li>
                             <li><span>Email:</span> <a href="" class="__cf_email__" data-cfemail="">info@africtech-drc.com</a></li>
                             <li><span>Website:</span> www.africtech-drc.com</li>
@@ -293,7 +292,7 @@
                 <!-- End Contact Widget -->
 
                 <!-- Start Flickr Widget -->
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <div class="footer-widget flickr-widget">
                         <h4>Our partners<span class="head-line"></span></h4>
                         
@@ -371,14 +370,14 @@
                 {{--<!-- End Twitter Widget -->--}}
 
                 <!-- Start Subscribe & Social Links Widget -->
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <div class="footer-widget mail-subscribe-widget">
                         <h4>Get in touch<span class="head-line"></span></h4>
                         <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
-                        <form class="subscribe">
-                            <input type="text" placeholder="mail@example.com">
-                            <input type="submit" class="main-button" value="Send">
-                        </form>
+                        {{--<form class="subscribe">--}}
+                            {{--<input type="text" placeholder="mail@example.com">--}}
+                            {{--<input type="submit" class="main-button" value="Send">--}}
+                        {{--</form>--}}
                     </div>
                     <div class="footer-widget social-widget">
                         <h4>Follow Us<span class="head-line"></span></h4>
