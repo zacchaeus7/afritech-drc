@@ -47,11 +47,9 @@
 
                         <!-- Start Touch Slider -->
                         <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
-                            @foreach($services as $service)
-                                <div class="item"><img alt="" style="width: 400px" src="{{url('assets/images/services/'.$service->cover)}}"></div>
-                                <div class="item"><img alt="" style="width: 400px"  src="{{url('assets/images/services/'.$service->cover)}}"></div>
-
-                            @endforeach
+                            <div class="item"><img alt="" style="width: 100%" src="{{url('assets/images/sliders/1.png/')}}"></div>
+                            <div class="item"><img alt="" style="width: 100%" src="{{url('assets/images/sliders/2.png/')}}"></div>
+                            <div class="item"><img alt="" style="width: 100%" src="{{url('assets/images/sliders/3.png/')}}"></div>
                         </div>
                         <!-- End Touch Slider -->
 
@@ -169,13 +167,13 @@
                 <div class="our-clients">
 
                     <!-- Classic Heading -->
-                    <h4 class="classic-title"><span>Our Happy Clients</span></h4>
+                    <h4 class="classic-title"><span>satisfied customers</span></h4>
 
                     <div class="clients-carousel custom-carousel touch-carousel" data-appeared-items="5">
 
                         <!-- Client 1 -->
                         <div class="client-item item">
-                            <a href="#"><img src="images/c1.png" alt="" /></a>
+                            {{--<a href="#"><img src="{{url('assets/images/projects/1.png')}}" alt="" /></a>--}}
                         </div>
 
                         <!-- Client 2 -->

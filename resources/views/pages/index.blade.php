@@ -210,18 +210,112 @@
             <h1 class="text-center">Our services</h1>
             <hr>
             <!-- Start Service Icon 1 -->
-            @foreach($services as $service)
-                <a href="{{url('my-service/'.$service->id)}}"><div class="col-md-4 service-box service-icon-left">
+
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                    <div class="service-icon">
+                        <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                    </div>
+                    <div class="service-content">
+                        <h4>Fuel Purification
+                        </h4>
+                        <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                    </div>
+                </div></a>
+
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                    <div class="service-icon">
+                        <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                    </div>
+                    <div class="service-content">
+                        <h4>Supply and repair of pumps
+                        </h4>
+                        <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                    </div>
+                </div></a>
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                        <div class="service-icon">
+                            <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Calibration of Meters And Tanks
+                            </h4>
+                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        </div>
+                    </div></a>
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                        <div class="service-icon">
+                            <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Crimping Machine Services
+                            </h4>
+                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        </div>
+                    </div></a>
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                        <div class="service-icon">
+                            <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Mining Work
+                            </h4>
+                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        </div>
+                    </div></a>
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                        <div class="service-icon">
+                            <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Industrial And Domestic drilling
+                            </h4>
+                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        </div>
+                    </div></a>
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                        <div class="service-icon">
+                            <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Repair and maintenance of service
+                            </h4>
+                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        </div>
+                    </div></a>
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                    <div class="service-icon">
+                        <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                    </div>
+                    <div class="service-content">
+                        <h4>Management Of Industrial And Domestic Waste
+                        </h4>
+                        <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                    </div>
+                </div></a>
+                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                        <div class="service-icon">
+                            <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Civil Engeneers and Construction Work
+                            </h4>
+                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        </div>
+                    </div></a>
+
+                </div></a>
+
+
+          <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
                 <div class="service-icon">
                     <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                 </div>
                 <div class="service-content">
-                    <h4>{{$service->title}}
+                    <h4>Sale And Installation Of Solar Equipment
                     </h4>
-                    <p>{{substr($service->description,0,100).'...'}}</p>
+                    <p>{ATPC and its range of services have always been associated with quality service.... </p>
                 </div>
-            </div></a>
-            @endforeach
+
             <!-- End Service Icon 1 -->
 
 
@@ -329,30 +423,140 @@
 
                 <!-- Start Project Item -->
 
-                @foreach($projects as $project)
-                    <div class="portfolio-item item">
-                        <div class="portfolio-border">
-                            <!-- Start Project Thumb -->
-                            <div class="portfolio-thumb">
-                                <a class="lightbox" data-lightbox-type="ajax" href="https://vimeo.com/78468485">
-                                    <div class="thumb-overlay"><i class="icon-video-1"></i></div>
-                                    <img alt="" src="{{url('assets/images/projects/'.$project->cover)}}" />
-                                </a>
-                            </div>
-                            <!-- End Project Thumb -->
-                            <!-- Start Project Details -->
-                            <div class="portfolio-details">
-                                <a href="#">
-                                    <h4>{{$project->title}}</h4>
-                                    <span>{{substr($project->description,0,150)}}</span>
-                                    {{--<span>Drawing</span>--}}
-                                </a>
-                                <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
-                            </div>
-                            <!-- End Project Details -->
+
+                <div class="portfolio-item item">
+                    <div class="portfolio-border">
+                        <!-- Start Project Thumb -->
+                        <div class="portfolio-thumb">
+                            <img alt="" src="{{url('assets/images/projects/1.png')}}" />
                         </div>
+                        <!-- End Project Thumb -->
+                        <!-- Start Project Details -->
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h4>Titre Premier</h4>
+                                <span>lorem ipsum</span>
+                                {{--<span>Drawing</span>--}}
+                            </a>
+                            <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                        </div>
+                        <!-- End Project Details -->
                     </div>
-                @endforeach
+                </div>
+                <div class="portfolio-item item">
+                    <div class="portfolio-border">
+                        <!-- Start Project Thumb -->
+                        <div class="portfolio-thumb">
+                            <img alt="" src="{{url('assets/images/projects/2.png')}}" />
+                        </div>
+                        <!-- End Project Thumb -->
+                        <!-- Start Project Details -->
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h4>Titre Premier</h4>
+                                <span>lorem ipsum</span>
+                                {{--<span>Drawing</span>--}}
+                            </a>
+                            <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                        </div>
+                        <!-- End Project Details -->
+                    </div>
+                </div>    <div class="portfolio-item item">
+                    <div class="portfolio-border">
+                        <!-- Start Project Thumb -->
+                        <div class="portfolio-thumb">
+                            <img alt="" src="{{url('assets/images/projects/3.png')}}" />
+                        </div>
+                        <!-- End Project Thumb -->
+                        <!-- Start Project Details -->
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h4>Titre Premier</h4>
+                                <span>lorem ipsum</span>
+                                {{--<span>Drawing</span>--}}
+                            </a>
+                            <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                        </div>
+                        <!-- End Project Details -->
+                    </div>
+                </div>
+                <div class="portfolio-item item">
+                    <div class="portfolio-border">
+                        <!-- Start Project Thumb -->
+                        <div class="portfolio-thumb">
+                            <img alt="" src="{{url('assets/images/projects/4.png')}}" />
+                        </div>
+                        <!-- End Project Thumb -->
+                        <!-- Start Project Details -->
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h4>Titre Premier</h4>
+                                <span>lorem ipsum</span>
+                                {{--<span>Drawing</span>--}}
+                            </a>
+                            <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                        </div>
+                        <!-- End Project Details -->
+                    </div>
+                </div>
+                <div class="portfolio-item item">
+                    <div class="portfolio-border">
+                        <!-- Start Project Thumb -->
+                        <div class="portfolio-thumb">
+                            <img alt="" src="{{url('assets/images/projects/5.png')}}" />
+                        </div>
+                        <!-- End Project Thumb -->
+                        <!-- Start Project Details -->
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h4>Titre Premier</h4>
+                                <span>lorem ipsum</span>
+                                {{--<span>Drawing</span>--}}
+                            </a>
+                            <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                        </div>
+                        <!-- End Project Details -->
+                    </div>
+                </div>
+                <div class="portfolio-item item">
+                    <div class="portfolio-border">
+                        <!-- Start Project Thumb -->
+                        <div class="portfolio-thumb">
+                            <img alt="" src="{{url('assets/images/projects/6.png')}}" />
+                        </div>
+                        <!-- End Project Thumb -->
+                        <!-- Start Project Details -->
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h4>Titre Premier</h4>
+                                <span>lorem ipsum</span>
+                                {{--<span>Drawing</span>--}}
+                            </a>
+                            <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                        </div>
+                        <!-- End Project Details -->
+                    </div>
+                </div>
+                <div class="portfolio-item item">
+                    <div class="portfolio-border">
+                        <!-- Start Project Thumb -->
+                        <div class="portfolio-thumb">
+                            <img alt="" src="{{url('assets/images/projects/7.png')}}" />
+                        </div>
+                        <!-- End Project Thumb -->
+                        <!-- Start Project Details -->
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h4>Titre Premier</h4>
+                                <span>lorem ipsum</span>
+                                {{--<span>Drawing</span>--}}
+                            </a>
+                            <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                        </div>
+                        <!-- End Project Details -->
+                    </div>
+                </div>
+
 
                 <!-- End Project Item -->
 
@@ -361,10 +565,10 @@
         <!-- End Recent Projects Carousel -->
 
         <!-- Divider -->
-        <div class="hr1" style="margin-bottom:30px;"></div>
+        {{--<div class="hr1" style="margin-bottom:30px;"></div>--}}
 
-        <!-- Button in Center -->
-        <p class="text-center"><a href="{{url('portfolio')}}" class="btn-system btn-medium border-btn"><i class="icon-brush"></i> All Portfolio</a></p>
+        {{--<!-- Button in Center -->--}}
+        {{--<p class="text-center"><a href="{{url('portfolio')}}" class="btn-system btn-medium border-btn"><i class="icon-brush"></i> All Portfolio</a></p>--}}
 
     </div>
 </div>
@@ -399,14 +603,54 @@
 
             <div class="col-md-6">
                 <!-- Start Progress Bar 1 -->
-                @foreach($services as $service)
-                    <div class="progress-label">{{$service->title}}</div>
-                    <div class="progress">
-                        <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
-                            <span class="percentage">98%</span>
-                        </div>
+                <div class="progress-label">Fuel Purification</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
                     </div>
-                @endforeach
+                </div>
+                <div class="progress-label">Supply and repair of pumps</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
+                    </div>
+                </div>
+                <div class="progress-label">Calibration of Meters And Tanks</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
+                    </div>
+                </div>
+                <div class="progress-label">Crimping Machine Services</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
+                    </div>
+                </div>
+                <div class="progress-label">Mining work</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
+                    </div>
+                </div>
+                <div class="progress-label">Industrial And Domestic drilling</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
+                    </div>
+                </div>
+                <div class="progress-label">Repair and maintenance of service</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
+                    </div>
+                </div>
+                <div class="progress-label">Management Of Industrial And Domestic Waste</div>
+                <div class="progress">
+                    <div class="progress-bar" style="background-color: #00005e" data-progress-animation="98%">
+                        <span class="percentage">98%</span>
+                    </div>
+                </div>
 
             </div>
             <!-- End Progress Bars -->

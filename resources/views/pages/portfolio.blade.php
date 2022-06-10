@@ -45,30 +45,168 @@
                 <div id="portfolio" class="portfolio-3">
 
                     <!-- Start Portfolio Item -->
-                    @foreach($portfolios as $portfolio)
-                        <div class="portfolio-item web drawing col-md-4">
-                            <div class="portfolio-border">
-                                <!-- Start Portfolio Item Thumb -->
-                                <div class="portfolio-thumb">
-                                    <a class="" data-lightbox-type="ajax" href="">
-                                        <img alt="" src="{{url('assets/images/projects/'.$portfolio->cover)}}" />
-                                    </a>
-                                </div>
-                                <!-- End Portfolio Item Thumb -->
-                                <!-- Start Portfolio Item Details -->
-                                <div class="portfolio-details">
-                                    <a href="#">
-                                        <h4>{{$portfolio->title}}</h4>
-                                        <h6> <strong>({{substr($portfolio->service->title,0,150)}})</strong> </h6>
-                                        <span>{{substr($portfolio->description,0,150)}}</span>
 
-                                    </a>
-                                    {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
-                                </div>
-                                <!-- End Portfolio Item Details -->
+                        <div class="portfolio-item web drawing col-md-4">
+                        <div class="portfolio-border">
+                            <!-- Start Portfolio Item Thumb -->
+                            <div class="portfolio-thumb">
+                                <a class="" data-lightbox-type="ajax" href="">
+                                    <img alt="" src="{{url('assets/images/projects/1.png')}}" />
+                                </a>
                             </div>
+                            <!-- End Portfolio Item Thumb -->
+                            <!-- Start Portfolio Item Details -->
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h4>Titre Premier</h4>
+                                    <h6> <strong>Quel service</strong> </h6>
+                                    <span>DEscription detaillée de l'activité</span>
+
+                                </a>
+                                {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
+                            </div>
+                            <!-- End Portfolio Item Details -->
                         </div>
-                    @endforeach
+                    </div>
+
+                    <div class="portfolio-item web drawing col-md-4">
+                        <div class="portfolio-border">
+                            <!-- Start Portfolio Item Thumb -->
+                            <div class="portfolio-thumb">
+                                <a class="" data-lightbox-type="ajax" href="">
+                                    <img alt="" src="{{url('assets/images/projects/2.png')}}" />
+                                </a>
+                            </div>
+                            <!-- End Portfolio Item Thumb -->
+                            <!-- Start Portfolio Item Details -->
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h4>Titre Premier</h4>
+                                    <h6> <strong>Quel service</strong> </h6>
+                                    <span>DEscription detaillée de l'activité</span>
+
+                                </a>
+                                {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
+                            </div>
+                            <!-- End Portfolio Item Details -->
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item web drawing col-md-4">
+                        <div class="portfolio-border">
+                            <!-- Start Portfolio Item Thumb -->
+                            <div class="portfolio-thumb">
+                                <a class="" data-lightbox-type="ajax" href="">
+                                    <img alt="" src="{{url('assets/images/projects/3.png')}}" />
+                                </a>
+                            </div>
+                            <!-- End Portfolio Item Thumb -->
+                            <!-- Start Portfolio Item Details -->
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h4>Titre Premier</h4>
+                                    <h6> <strong>Quel service</strong> </h6>
+                                    <span>DEscription detaillée de l'activité</span>
+
+                                </a>
+                                {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
+                            </div>
+                            <!-- End Portfolio Item Details -->
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item web drawing col-md-4">
+                        <div class="portfolio-border">
+                            <!-- Start Portfolio Item Thumb -->
+                            <div class="portfolio-thumb">
+                                <a class="" data-lightbox-type="ajax" href="">
+                                    <img alt="" src="{{url('assets/images/projects/4.png')}}" />
+                                </a>
+                            </div>
+                            <!-- End Portfolio Item Thumb -->
+                            <!-- Start Portfolio Item Details -->
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h4>Titre Premier</h4>
+                                    <h6> <strong>Quel service</strong> </h6>
+                                    <span>DEscription detaillée de l'activité</span>
+
+                                </a>
+                                {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
+                            </div>
+                            <!-- End Portfolio Item Details -->
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item web drawing col-md-4">
+                        <div class="portfolio-border">
+                            <!-- Start Portfolio Item Thumb -->
+                            <div class="portfolio-thumb">
+                                <a class="" data-lightbox-type="ajax" href="">
+                                    <img alt="" src="{{url('assets/images/projects/5.png')}}" />
+                                </a>
+                            </div>
+                            <!-- End Portfolio Item Thumb -->
+                            <!-- Start Portfolio Item Details -->
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h4>Titre Premier</h4>
+                                    <h6> <strong>Quel service</strong> </h6>
+                                    <span>DEscription detaillée de l'activité</span>
+
+                                </a>
+                                {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
+                            </div>
+                            <!-- End Portfolio Item Details -->
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item web drawing col-md-4">
+                        <div class="portfolio-border">
+                            <!-- Start Portfolio Item Thumb -->
+                            <div class="portfolio-thumb">
+                                <a class="" data-lightbox-type="ajax" href="">
+                                    <img alt="" src="{{url('assets/images/projects/6.png')}}" />
+                                </a>
+                            </div>
+                            <!-- End Portfolio Item Thumb -->
+                            <!-- Start Portfolio Item Details -->
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h4>Titre Premier</h4>
+                                    <h6> <strong>Quel service</strong> </h6>
+                                    <span>DEscription detaillée de l'activité</span>
+
+                                </a>
+                                {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
+                            </div>
+                            <!-- End Portfolio Item Details -->
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item web drawing col-md-4">
+                        <div class="portfolio-border">
+                            <!-- Start Portfolio Item Thumb -->
+                            <div class="portfolio-thumb">
+                                <a class="" data-lightbox-type="ajax" href="">
+                                    <img alt="" src="{{url('assets/images/projects/7.png')}}" />
+                                </a>
+                            </div>
+                            <!-- End Portfolio Item Thumb -->
+                            <!-- Start Portfolio Item Details -->
+                            <div class="portfolio-details">
+                                <a href="#">
+                                    <h4>Titre Premier</h4>
+                                    <h6> <strong>Quel service</strong> </h6>
+                                    <span>DEscription detaillée de l'activité</span>
+
+                                </a>
+                                {{--<a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>--}}
+                            </div>
+                            <!-- End Portfolio Item Details -->
+                        </div>
+                    </div>
+
                 </div>
                 <!-- End Portfolio Items -->
 
