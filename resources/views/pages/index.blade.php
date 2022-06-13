@@ -211,7 +211,7 @@
             <hr>
             <!-- Start Service Icon 1 -->
 
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/8')}}"><div class="col-md-4 service-box service-icon-left">
                     <div class="service-icon">
                         <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                     </div>
@@ -232,7 +232,7 @@
                         <p>{ATPC and its range of services have always been associated with quality service.... </p>
                     </div>
                 </div></a>
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/6')}}"><div class="col-md-4 service-box service-icon-left">
                         <div class="service-icon">
                             <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                         </div>
@@ -242,7 +242,7 @@
                             <p>{ATPC and its range of services have always been associated with quality service.... </p>
                         </div>
                     </div></a>
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/10')}}"><div class="col-md-4 service-box service-icon-left">
                         <div class="service-icon">
                             <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                         </div>
@@ -252,7 +252,7 @@
                             <p>{ATPC and its range of services have always been associated with quality service.... </p>
                         </div>
                     </div></a>
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/4')}}"><div class="col-md-4 service-box service-icon-left">
                         <div class="service-icon">
                             <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                         </div>
@@ -262,7 +262,7 @@
                             <p>{ATPC and its range of services have always been associated with quality service.... </p>
                         </div>
                     </div></a>
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/2')}}"><div class="col-md-4 service-box service-icon-left">
                         <div class="service-icon">
                             <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                         </div>
@@ -272,7 +272,7 @@
                             <p>{ATPC and its range of services have always been associated with quality service.... </p>
                         </div>
                     </div></a>
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/3')}}"><div class="col-md-4 service-box service-icon-left">
                         <div class="service-icon">
                             <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                         </div>
@@ -282,7 +282,7 @@
                             <p>{ATPC and its range of services have always been associated with quality service.... </p>
                         </div>
                     </div></a>
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/11')}}"><div class="col-md-4 service-box service-icon-left">
                     <div class="service-icon">
                         <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                     </div>
@@ -292,7 +292,7 @@
                         <p>{ATPC and its range of services have always been associated with quality service.... </p>
                     </div>
                 </div></a>
-                <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+                <a href="{{url('my-service/4')}}"><div class="col-md-4 service-box service-icon-left">
                         <div class="service-icon">
                             <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                         </div>
@@ -306,7 +306,7 @@
                 </div></a>
 
 
-          <a href="{{url('my-service/1')}}"><div class="col-md-4 service-box service-icon-left">
+          <a href="{{url('my-service/9')}}"><div class="col-md-4 service-box service-icon-left">
                 <div class="service-icon">
                     <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                 </div>
