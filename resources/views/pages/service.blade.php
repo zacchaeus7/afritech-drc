@@ -33,7 +33,7 @@
                 <div class="row">
                     <!-- Start Image Service Box 1 -->
                     @foreach($services as $service)
-                        <div class="col-md-4 image-service-box">
+                        <div class="col-md-3 image-service-box">
                             <a href="{{url('my-service',$service->id)}}">
                                 <img class="img-thumbnail" src="{{url('assets/images/services/'.$service->cover)}}" alt="" />
                                 <h4>{{$service->title}}</h4>

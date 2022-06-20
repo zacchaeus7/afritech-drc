@@ -298,49 +298,42 @@
                         
                         <ul class="flickr-list">
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner1.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/12.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner2.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/11.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner3.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/10.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner4.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/9.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner5.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/8.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner6.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/7.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner7.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/6.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner8.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/5.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner9.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/4.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner10.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/3.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner11.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/2.png')}}"></a>
                             </li>
                             <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner12.png')}}"></a>
+                                <a href="#"><img alt="" src="{{url('assets/images/partners/1.png')}}"></a>
                             </li>
-                            <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner13.png')}}"></a>
-                            </li>
-                            <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner14.png')}}"></a>
-                            </li>
-                            <li>
-                                <a href="#"><img alt="" src="{{url('assets/images/partners/partner15.png')}}"></a>
+        
                             </li>
                         </ul>
                     </div>

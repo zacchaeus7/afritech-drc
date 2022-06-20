@@ -207,7 +207,7 @@
 
         <!-- Start Services Icons -->
         <div class="row">
-            <h1 class="text-center">Our services</h1>
+            <h1 class="text-center">Services</h1>
             <hr>
             <!-- Start Service Icon 1 -->
 
@@ -218,7 +218,7 @@
                     <div class="service-content">
                         <h4>Fuel Purification
                         </h4>
-                        <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        <p>Africtech provides purification solutions that help maintain the quality.... </p>
                     </div>
                 </div></a>
 
@@ -229,7 +229,7 @@
                     <div class="service-content">
                         <h4>Supply and repair of pumps
                         </h4>
-                        <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        <p>We supply and repair all types of industrial pumps, including: .... </p>
                     </div>
                 </div></a>
                 <a href="{{url('my-service/6')}}"><div class="col-md-4 service-box service-icon-left">
@@ -239,7 +239,7 @@
                         <div class="service-content">
                             <h4>Calibration of Meters And Tanks
                             </h4>
-                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                            <p>A correct tank volume graph is a key point for oil inventory .... </p>
                         </div>
                     </div></a>
                 <a href="{{url('my-service/10')}}"><div class="col-md-4 service-box service-icon-left">
@@ -249,7 +249,7 @@
                         <div class="service-content">
                             <h4>Crimping Machine Services
                             </h4>
-                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                            <p>Using a crimper to join two pieces of metal fitting .... </p>
                         </div>
                     </div></a>
                 <a href="{{url('my-service/4')}}"><div class="col-md-4 service-box service-icon-left">
@@ -259,7 +259,7 @@
                         <div class="service-content">
                             <h4>Mining Work
                             </h4>
-                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                            <p>Evacuation of underground water from mines by pumping.... </p>
                         </div>
                     </div></a>
                 <a href="{{url('my-service/2')}}"><div class="col-md-4 service-box service-icon-left">
@@ -279,7 +279,7 @@
                         <div class="service-content">
                             <h4>Repair and maintenance of service
                             </h4>
-                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                            <p>ATPC and its range of services have always been associated with quality service.... </p>
                         </div>
                     </div></a>
                 <a href="{{url('my-service/11')}}"><div class="col-md-4 service-box service-icon-left">
@@ -289,7 +289,7 @@
                     <div class="service-content">
                         <h4>Management Of Industrial And Domestic Waste
                         </h4>
-                        <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                        <p>We help our customers to manage their industrial waste ... </p>
                     </div>
                 </div></a>
                 <a href="{{url('my-service/4')}}"><div class="col-md-4 service-box service-icon-left">
@@ -299,21 +299,21 @@
                         <div class="service-content">
                             <h4>Civil Engeneers and Construction Work
                             </h4>
-                            <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                            <p>If you want to carry out your construction project... </p>
                         </div>
                     </div></a>
 
                 </div></a>
 
 
-          <a href="{{url('my-service/9')}}"><div class="col-md-4 service-box service-icon-left">
+          <a href="{{url('my-service/12')}}"><div class="col-md-4 service-box service-icon-left">
                 <div class="service-icon">
                     <i class="icon-check-2 icon-mini-effect icon-effect-2 gray-icon"></i>
                 </div>
                 <div class="service-content">
                     <h4>Sale And Installation Of Solar Equipment
                     </h4>
-                    <p>{ATPC and its range of services have always been associated with quality service.... </p>
+                    <p>Autonomous solar kit.... </p>
                 </div>
 
             <!-- End Service Icon 1 -->
@@ -394,10 +394,54 @@
             </div>
 
         </div>
+        
 
     </div>
 </div>
 <!-- End Full Width Section 2 -->
+
+<!-- Start Full Width Section 4 -->
+<div class="section" style="padding-top:120px; padding-bottom:120px; border-top:1px solid #eee; border-bottom:1px solid #eee; background:#fff;">
+    <div class="container">
+    
+        <!-- Start Video Section Content -->
+        <div class="section-video-content text-center">
+        
+            <!-- Start Animations Text -->
+            <h1 class="fittext wite-text uppercase tlt">
+                <span class="texts">
+                    <span>Modern</span>
+                    <span>Clean</span>
+                    <span>Awesome</span>
+                    <span>Best</span>
+                    <span>Near</span>
+                </span>
+                 <br/>Agency, Office <strong>To</strong> achieve your goals
+            </h1>
+            <!-- End Animations Text -->
+            
+            <!-- Divider -->
+            <div class="hr1" style="margin-bottom:32px;"></div>
+            
+            <!-- Start Buttons
+            <a href="#" class="btn-system btn-large border-btn btn-wite"><i class="icon-feather"></i> Check Out Features</a>
+            <a href="#" class="btn-system btn-large btn-wite"><i class="icon-download-3"></i> Purchase This Now</a> -->
+            
+        </div>
+        <!-- End Section Content -->
+        
+        <!-- Start Video -->
+        <video class="section-video" poster="{{url('assets/images/video/poster.jpg')}}" autoplay loop preload="none">
+            
+        </video>
+        <script>$('.section-video').mediaelementplayer({ loop:true });</script>
+        <!-- End Video -->
+        
+        <!-- Start Video Section overlay -->
+        <div class="section-overlay"></div>
+        
+    </div>
+</div>
 
 
 <!-- Start Full Width Section 3 -->
@@ -412,7 +456,7 @@
         <!-- End Big Heading -->
 
         <!-- Some Text -->
-        <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p class="text-center">A team close to you to accompany and serve you until the end.</p>
 
         <!-- Divider -->
         <div class="hr1" style="margin-bottom:15px;"></div>
