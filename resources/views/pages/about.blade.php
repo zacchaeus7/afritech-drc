@@ -167,50 +167,25 @@
                 <div class="our-clients">
 
                     <!-- Classic Heading -->
-                    <h4 class="classic-title"><span>satisfied customers</span></h4>
+                    <h4 class="classic-title"><span>our staff</span></h4>
 
                     <div class="clients-carousel custom-carousel touch-carousel" data-appeared-items="5">
 
                         <!-- Client 1 -->
                         <div class="client-item item">
-                            {{--<a href="#"><img src="{{url('assets/images/projects/1.png')}}" alt="" /></a>--}}
+                        <a href="#"><img src="{{url('assets/images/personnels/1.jpg')}}" alt="" /></a>
+
                         </div>
 
                         <!-- Client 2 -->
                         <div class="client-item item">
-                            <a href="#"><img src="images/c2.png" alt="" /></a>
+                            <a href="#"><img src="{{url('assets/images/personnels/2.jpg')}}" alt="" /></a>
                         </div>
 
-                        <!-- Client 3 -->
-                        <div class="client-item item">
-                            <a href="#"><img src="images/c3.png" alt="" /></a>
+                         <!-- Client 3 -->
+                         <div class="client-item item">
+                            <a href="#"><img src="{{url('assets/images/personnels/3.jpg')}}" alt="" /></a>
                         </div>
-
-                        <!-- Client 4 -->
-                        <div class="client-item item">
-                            <a href="#"><img src="images/c4.png" alt="" /></a>
-                        </div>
-
-                        <!-- Client 5 -->
-                        <div class="client-item item">
-                            <a href="#"><img src="images/c5.png" alt="" /></a>
-                        </div>
-
-                        <!-- Client 6 -->
-                        <div class="client-item item">
-                            <a href="#"><img src="images/c6.png" alt="" /></a>
-                        </div>
-
-                        <!-- Client 7 -->
-                        <div class="client-item item">
-                            <a href="#"><img src="images/c7.png" alt="" /></a>
-                        </div>
-
-                        <!-- Client 8 -->
-                        <div class="client-item item">
-                            <a href="#"><img src="images/c8.png" alt="" /></a>
-                        </div>
-
                     </div>
                 </div>
                 <!-- End Clients Carousel -->

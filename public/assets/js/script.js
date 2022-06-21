@@ -12,8 +12,6 @@ $(window).load(function(){
 $(document).ready(function($) {
 	"use strict";
 	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Hidder Header
 	/*----------------------------------------------------*/
@@ -30,11 +28,6 @@ $(document).ready(function($) {
 	$(window).resize(function () {
 	   headerEle();
 	});
-	
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Nice-Scroll
 	/*----------------------------------------------------*/
@@ -50,11 +43,6 @@ $(document).ready(function($) {
 		horizrailenabled: false,
 		cursorborderradius: 0,
 	});
-		
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Nav Menu & Search
 	/*----------------------------------------------------*/
@@ -70,10 +58,6 @@ $(document).ready(function($) {
 	$('.search-form input').blur(function() {
 		$('.search-form').fadeOut(300);
 	});
-	
-	
-	
-	
 	
 	/*----------------------------------------------------*/
 	/*	Back Top Link
@@ -93,10 +77,6 @@ $(document).ready(function($) {
         $('html, body').animate({scrollTop: 0}, 600);
         return false;
     })
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Sliders & Carousel
 	/*----------------------------------------------------*/
@@ -196,8 +176,6 @@ $(document).ready(function($) {
       start();
     }
 	
-	
-	
 	////------- Projects Carousel
 	$(".projects-carousel").owlCarousel({
 		navigation : true,
@@ -210,9 +188,6 @@ $(document).ready(function($) {
 		itemsTablet: [600,2],
 		itemsMobile : [479, 1]
 	});
-	
-	
-	
 	////------- Testimonials Carousel
 	$(".testimonials-carousel").owlCarousel({
 		navigation : true,
@@ -224,10 +199,6 @@ $(document).ready(function($) {
 		autoHeight : true,
 		transitionStyle : "fade"
 	});
-	
-	
-	
-	
 	////------- Testimonials Carousel
 	$(".fullwidth-projects-carousel").owlCarousel({
 		navigation : false,
@@ -240,9 +211,6 @@ $(document).ready(function($) {
 		itemsTablet: [600,2],
 		itemsMobile : [479, 1]
 	});
-	
-	
-	
 	////------- Custom Carousel
 	$('.custom-carousel').each(function(){
 		var owl = jQuery(this),
@@ -290,10 +258,6 @@ $(document).ready(function($) {
 		});
 	});
 	
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Tabs
 	/*----------------------------------------------------*/
@@ -302,10 +266,6 @@ $(document).ready(function($) {
 		e.preventDefault()
 		$(this).tab('show')
 	})
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Css3 Transition
 	/*----------------------------------------------------*/
@@ -320,10 +280,6 @@ $(document).ready(function($) {
 			});
 		}
 	});
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Pie Charts
 	/*----------------------------------------------------*/
@@ -353,10 +309,6 @@ $(document).ready(function($) {
 	}
 	initPieCharts();
 	
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Animation Progress Bars
 	/*----------------------------------------------------*/
@@ -377,10 +329,6 @@ $(document).ready(function($) {
 
 	});
 	
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Milestone Counter
 	/*----------------------------------------------------*/
@@ -396,11 +344,6 @@ $(document).ready(function($) {
 			});
 		},{accX: 0, accY: 0});
 	});
-	
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Nivo Lightbox
 	/*----------------------------------------------------*/
@@ -411,10 +354,6 @@ $(document).ready(function($) {
 		errorMessage: 'The requested content cannot be loaded. Please try again later.'
 	});
 	
-	
-	
-	
-	
 	/*----------------------------------------------------*/
 	/*	Change Slider Nav Icons
 	/*----------------------------------------------------*/
@@ -424,9 +363,6 @@ $(document).ready(function($) {
 	$('.touch-carousel, .testimonials-carousel').find('.owl-prev').html('<i class="icon-angle-left"></i>');
 	$('.touch-carousel, .testimonials-carousel').find('.owl-next').html('<i class="icon-angle-right"></i>');
 	$('.read-more').append('<i class="icon-right-open-mini"></i>');
-	
-	
-	
 	
 	/*----------------------------------------------------*/
 	/*	Tooltips & Fit Vids & Parallax & Text Animations

@@ -170,7 +170,7 @@
                         <li>
                             <a class="{{ (request()->is('/')) ? 'active' : '' }}"  href="{{url('/')}}">Home</a>
                             {{--<ul class="dropdown">--}}
-                                {{--<li><a href="index.html">Home Main Version</a></li>--}}
+                                <!-- {{--<li><a href="index.html">Home Main Version</a></li>--}}
                                 {{--<li><a href="index-01.html">Home Version 1</a></li>--}}
                                 {{--<li><a href="index-02.html">Home Version 2</a></li>--}}
                                 {{--<li><a href="index-03.html">Home Version 3</a></li>--}}
@@ -178,7 +178,7 @@
                                 {{--<li><a href="index-05.html">Home Version 5</a></li>--}}
                                 {{--<li><a href="index-06.html">Home Version 6</a></li>--}}
                                 {{--<li><a class="active" href="index-07.html">Home Version 7</a></li>--}}
-                                {{--<li><a href="index-08.html">Home Version 8</a></li>--}}
+                                {{--<li><a href="index-08.html">Home Version 8</a></li>--}} -->
                             {{--</ul>--}}
                         </li>
                         <li>
@@ -427,10 +427,6 @@
 <div id="loader">
     <div class="spinner">
         <div class="dot1"></div>
-        <div class="dot2"></div>
-        <div class="dot3"></div>
-        <div class="dot4"></div>
-        <div class="dot5"></div>
     </div>
 </div>
 
@@ -441,8 +437,8 @@
     {{--<span>12 Predefined Color Skins</span>--}}
     {{--<ul class="colors-list">--}}
         {{--<li><a onClick="setActiveStyleSheet('blue'); return false;" title="Blue" class="blue"></a></li>--}}
-        {{--<li><a onClick="setActiveStyleSheet('sky-blue'); return false;" title="Sky Blue" class="sky-blue"></a></li>--}}
-        {{--<li><a onClick="setActiveStyleSheet('cyan'); return false;" title="Cyan" class="cyan"></a></li>--}}
+        <!-- {{--<li><a onClick="setActiveStyleSheet('sky-blue'); return false;" title="Sky Blue" class="sky-blue"></a></li>--}} -->
+        <!-- {{--<li><a onClick="setActiveStyleSheet('cyan'); return false;" title="Cyan" class="cyan"></a></li>--}}
         {{--<li><a onClick="setActiveStyleSheet('jade'); return false;" title="Jade" class="jade"></a></li>--}}
         {{--<li><a onClick="setActiveStyleSheet('green'); return false;" title="Green" class="green"></a></li>--}}
         {{--<li><a onClick="setActiveStyleSheet('purple'); return false;" title="Purple" class="purple"></a></li>--}}
@@ -451,22 +447,22 @@
         {{--<li><a onClick="setActiveStyleSheet('orange'); return false;" title="Orange" class="orange"></a></li>--}}
         {{--<li><a onClick="setActiveStyleSheet('yellow'); return false;" title="Yellow" class="yellow"></a></li>--}}
         {{--<li><a onClick="setActiveStyleSheet('peach'); return false;" title="Peach" class="peach"></a></li>--}}
-        {{--<li><a onClick="setActiveStyleSheet('beige'); return false;" title="Biege" class="beige"></a></li>--}}
+        {{--<li><a onClick="setActiveStyleSheet('beige'); return false;" title="Biege" class="beige"></a></li>--}} -->
     {{--</ul>--}}
     {{--<span>Top Bar Color</span>--}}
     {{--<select id="topbar-style" class="topbar-style">--}}
-        {{--<option value="1">Light (Default)</option>--}}
+        <!-- {{--<option value="1">Light (Default)</option>--}}
         {{--<option value="2">Dark</option>--}}
-        {{--<option value="3">Color</option>--}}
+        {{--<option value="3">Color</option>--}} -->
     {{--</select>--}}
     {{--<span>Layout Style</span>--}}
-    {{--<select id="layout-style" class="layout-style">--}}
+    <!-- {{--<select id="layout-style" class="layout-style">--}}
         {{--<option value="1">Wide</option>--}}
-        {{--<option value="2">Boxed</option>--}}
+        {{--<option value="2">Boxed</option>--}} -->
     {{--</select>--}}
     {{--<span>Patterns for Boxed Version</span>--}}
     {{--<ul class="bg-list">--}}
-        {{--<li><a href="#" class="bg1"></a></li>--}}
+        <!-- {{--<li><a href="#" class="bg1"></a></li>--}}
         {{--<li><a href="#" class="bg2"></a></li>--}}
         {{--<li><a href="#" class="bg3"></a></li>--}}
         {{--<li><a href="#" class="bg4"></a></li>--}}
@@ -479,19 +475,19 @@
         {{--<li><a href="#" class="bg11"></a></li>--}}
         {{--<li><a href="#" class="bg12"></a></li>--}}
         {{--<li><a href="#" class="bg13"></a></li>--}}
-        {{--<li><a href="#" class="bg14"></a></li>--}}
+        {{--<li><a href="#" class="bg14"></a></li>--}} -->
     {{--</ul>--}}
 {{--</div>--}}
 
 <!-- Histats.com  START (hidden counter)-->
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<!-- <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
 <a href="http://www.histats.com/" target="_blank" title="" ><script  type="text/javascript" >
 
         try {Histats.start(1,2633271,4,0,0,0,"");
             Histats.track_hits();} catch(err){};
 
     </script></a>
-<noscript><a href="http://www.histats.com/" target="_blank"><img  src="../../../sstatic1.histats.com/0266b.gif?2633271&amp;101" alt="" border="0"></a></noscript>
+<noscript><a href="http://www.histats.com/" target="_blank"><img  src="../../../sstatic1.histats.com/0266b.gif?2633271&amp;101" alt="" border="0"></a></noscript> -->
 
 <!-- Histats.com  END  -->
 
