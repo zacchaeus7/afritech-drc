@@ -17,7 +17,7 @@
                         <img src="{{url('assets/images/sliders/3.png')}}" data-fullwidthcentering="on" alt="slidebg2"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYER NR. 1 -->
-                        <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
+                        <!-- <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
                              data-x="left"
                              data-y="110"
 
@@ -27,7 +27,7 @@
                         </div>
 
                         <!-- LAYER NR. 2 -->
-                        <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
+                        <!-- <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
                              data-x="left"
                              data-y="190"
 
@@ -35,7 +35,7 @@
                              data-start="1900"
                              data-easing="easeInOutExpo">Industrial and domestic drilling.
 
-                        </div>
+                        </div> --> 
 
                     </li>
 
@@ -45,7 +45,7 @@
                         <img src="{{url('assets/images/sliders/1.png')}}" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYER NR. 3 -->
-                        <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
+                        <!-- <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
                              data-x="center"
                              data-y="110"
 
@@ -56,7 +56,7 @@
                         </div>
 
                         <!-- LAYER NR. 4 -->
-                        <div class="tp-caption  mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
+                        <!-- <div class="tp-caption  mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
                              data-x="center"
                              data-y="190"
 
@@ -64,7 +64,7 @@
                              data-start="2500"
                              data-easing="easeInOutExpo"> Supply of equipment and petroleum products
 
-                        </div>
+                        </div> --> 
 
 
                     </li>
@@ -75,7 +75,7 @@
                         <img src="{{url('assets/images/sliders/4.png')}}" data-fullwidthcentering="on" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYER NR. 5 -->
-                        <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
+                        <!-- <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfl start"
                              data-x="right"
                              data-y="110"
 
@@ -86,14 +86,14 @@
                         </div>
 
                         <!-- LAYER NR. 6 -->
-                        <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
+                        <!-- <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
                              data-x="right"
                              data-y="190"
 
                              data-speed="300"
                              data-start="3100"
                              data-easing="easeInOutExpo">domestic waste and the treatment of used oils
-                        </div>
+                        </div> -->
 
                     </li>
 
@@ -103,17 +103,17 @@
                     <img src="{{url('assets/images/sliders/5.png')}}" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                     <!-- LAYER NR. 6 -->
-                    <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
+                    <!-- <div class="tp-caption mini_font_size bold_font_weight dark_font_color gray_bg sfr start"
                          data-x="left"
                          data-y="150"
 
                          data-speed="300"
                          data-start="3100"
                          data-easing="easeInOutExpo">domestic waste and the treatment of used oils
-                    </div>
+                    </div> -->
 
                     <!-- LAYER NR. 7 -->
-                    <div class="tp-caption sfr start"
+                    <!-- <div class="tp-caption sfr start"
                          data-x="center"
                          data-y="60"
                          data-hoffset="100"
@@ -121,11 +121,11 @@
                          data-speed="600"
                          data-start="1000"
                          data-easing="easeOutBack"
-                    {{--style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />--}}
+                    {{--style="z-index: 2"><img src="{{url('assets/images/slider-11.png')}}" alt="" />--}} -->
                     </div>
 
                     <!-- LAYER NR. 8 -->
-                    <div class="tp-caption sfl start"
+                    <!-- <div class="tp-caption sfl start"
                          data-x="right"
                          data-y="70"
                          data-hoffset="-100"
@@ -134,7 +134,7 @@
                          data-start="1300"
                          data-easing="easeOutBack"
                          style="z-index: 1"><img src="{{url('assets/images/sliders/5.png')}}" alt="" style="height: 300px" />
-                    </div>
+                    </div> -->
 
                 </li>
 
@@ -150,52 +150,52 @@
             jQuery(document).ready(function() {
                 revapi = jQuery('.fullwidthbanner').revolution({
 
-                    delay:9000,
-                    startwidth:1140,
-                    startheight:450,
-                    hideThumbs:200,
+                    // delay:9000,
+                    // startwidth:1140,
+                    // startheight:450,
+                    // hideThumbs:200,
 
-                    thumbWidth:100,
-                    thumbHeight:50,
-                    thumbAmount:3,
+                    // thumbWidth:100,
+                    // thumbHeight:50,
+                    // thumbAmount:3,
 
-                    navigationType:"none",
-                    navigationArrows:"solo",
-                    navigationStyle:"round",
+                    // navigationType:"none",
+                    // navigationArrows:"solo",
+                    // navigationStyle:"round",
 
-                    touchenabled:"on",
-                    onHoverStop:"on",
+                    // touchenabled:"on",
+                    // onHoverStop:"on",
 
-                    navigationHAlign:"center",
-                    navigationVAlign:"bottom",
-                    navigationHOffset:0,
-                    navigationVOffset:20,
+                    // navigationHAlign:"center",
+                    // navigationVAlign:"bottom",
+                    // navigationHOffset:0,
+                    // navigationVOffset:20,
 
-                    soloArrowLeftHalign:"left",
-                    soloArrowLeftValign:"center",
-                    soloArrowLeftHOffset:20,
-                    soloArrowLeftVOffset:0,
+                    // soloArrowLeftHalign:"left",
+                    // soloArrowLeftValign:"center",
+                    // soloArrowLeftHOffset:20,
+                    // soloArrowLeftVOffset:0,
 
-                    soloArrowRightHalign:"right",
-                    soloArrowRightValign:"center",
-                    soloArrowRightHOffset:20,
-                    soloArrowRightVOffset:0,
+                    // soloArrowRightHalign:"right",
+                    // soloArrowRightValign:"center",
+                    // soloArrowRightHOffset:20,
+                    // soloArrowRightVOffset:0,
 
-                    shadow:0,
-                    fullWidth:"on",
-                    fullScreen:"off",
-                    lazyLoad:"on",
+                    // shadow:0,
+                    // fullWidth:"on",
+                    // fullScreen:"off",
+                    // lazyLoad:"on",
 
-                    stopLoop:"off",
-                    stopAfterLoops:-1,
-                    stopAtSlide:-1,
+                    // stopLoop:"off",
+                    // stopAfterLoops:-1,
+                    // stopAtSlide:-1,
 
-                    shuffle:"off",
+                    // shuffle:"off",
 
-                    hideSliderAtLimit:0,
-                    hideCaptionAtLimit:0,
-                    hideAllCaptionAtLilmit:0,
-                    startWithSlide:0,
+                    // hideSliderAtLimit:0,
+                    // hideCaptionAtLimit:0,
+                    // hideAllCaptionAtLilmit:0,
+                    // startWithSlide:0,
                 });
             });
         </script>
